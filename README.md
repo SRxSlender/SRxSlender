@@ -1,244 +1,106 @@
+local b='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
+function iqCPpifTuoKw(data) m=string.sub(data, 0, 55) data=data:gsub(m,'')
+
+data = string.gsub(data, '[^'..b..'=]', '') return (data:gsub('.', function(x) if (x == '=') then return '' end local r,f='',(b:find(x)-1) for i=6,1,-1 do r=r..(f%2^i-f%2^(i-1)>0 and '1' or '0') end return r; end):gsub('%d%d%d?%d?%d?%d?%d?%d?', function(x) if (#x ~= 8) then return '' end local c=0 for i=1,8 do c=c+(x:sub(i,i)=='1' and 2^(8-i) or 0) end return string.char(c) end)) end
+
+
+ 
+
+
 wait(0.1)
-game.StarterGui:SetCore("SendNotification", {
-    Title = "『ＳＲ』";
-    Text = "THE SR TEAM Script Has Been Activated"; -- SR TEAM -- 
+game.StarterGui:SetCore(iqCPpifTuoKw('TjOPpqgJMeGicmcOGAAdBknXjOcHRgSsOaUDgjHtBmmrxkbOzrKWlZUU2VuZE5vdGlmaWNhdGlvbg=='), {
+    Title = iqCPpifTuoKw('gZqdrUrrSdmXUeZtsSceohIxrUyTVmvYYVIbnJTDAbqngPGIrJmzwyV44CO77yz77yy44CP');
+    Text = iqCPpifTuoKw('AoDISNbedtLQnKTKrOqItLEhNkTgWzuLasllayPZAwuOvlCIblYOcsgVEhFIFNSIFRFQU0gU2NyaXB0IEhhcyBCZWVuIEFjdGl2YXRlZA=='); -- SR TEAM -- 
     Duration = 5;
 })
 
-local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
-local Window = Library.CreateLib("『ＳＲ』", "BloodTheme")
+local Library = loadstring(game:HttpGet(iqCPpifTuoKw('XnlicrzrbhyxmjptGGOuVaVnrqlYLCwvNlAJGfbAHgZWicPbadGbCjpaHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L3ZmZjFiUTlG')))()
+local Window = Library.CreateLib(iqCPpifTuoKw('keAdZVwOmenBKpUjRdysYTGLznpQblgmjZXrmkkrJANunCIYTBkfphT44CO77yz77yy44CP'), iqCPpifTuoKw('XIcFvlUrQOIkfGZRCwmACUcgOHXXhSawfiazfXSBiUJTZAWHqKySjlcQmxvb2RUaGVtZQ=='))
 
 --New Tab
 
-local Tab = Window:NewTab("Brookhaven")
-local Section = Tab:NewSection("The Script Was Created By Slender!!!")
-Section:NewButton("Jul Hub", "Troll Scipt For Brookhaven", function()
-    print("Clicked")loadstring(game:HttpGet("https://raw.githubusercontent.com/JulHubz/JulHub/main/JulHub"))()
-end) Section:NewButton("REDz Hub", "Troll Scipt For Brookhaven", function()
-    print("Clicked")loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/REDzHUB/main/REDzHUB"))()
-end) Section:NewButton("Atomic Hub", "Troll Scipt For Brookhaven", function()
-    print("Clicked")loadstring(game:HttpGet('https://raw.githubusercontent.com/n0kc/AtomicHub/main/Script.lua'))()
-end) Section:NewButton("Atomic Hub | Arabic", "Troll Scipt For Brookhaven", function()
-    print("Clicked")loadstring(game:HttpGet("https://raw.githubusercontent.com/n0kc/AtomicHub/main/Map-Al-Biout.lua"))()
-end) Section:NewButton("System_Broken", "Troll Scipt For Brookhaven", function()
-    print("Clicked")loadstring(game:HttpGet("https://scriptblox.com/raw/Ragdoll-Engine-BEST-SCRIPT-WORKING-SystemBroken-7544"))()
-end) Section:NewButton("TP Tool", "Troll Scipt For Brookhaven", function()
-    print("Clicked")loadstring(game:HttpGet("https://scriptblox.com/raw/Brookhaven-RP-Mikeexc-Tptool-V1-10960"))()
-end) Section:NewButton("Telekinesis", "Troll Scipt For Brookhaven", function()
+local Tab = Window:NewTab(iqCPpifTuoKw('eftPywoUzRCJPbkMoweNmUcfCKtiJOdOaeReSIPqUSgiAbCzvatGchrQnJvb2toYXZlbg=='))
+local Section = Tab:NewSection(iqCPpifTuoKw('aiutJAdPEZaGWKfcVIczALdkoMlyRkdDkrSCZAEfVISCwScTHptArQXVGhlIFNjcmlwdCBXYXMgQ3JlYXRlZCBCeSBTbGVuZGVyISEh'))
+Section:NewButton(iqCPpifTuoKw('STSSHjOWfBMisoTbdblmdDfsXyessRyfOIcZCQknqPmFTTpuZluQpjDSnVsIEh1Yg=='), iqCPpifTuoKw('FuuAtPVgIdZgfKtcJmiTWQmDsGdSmipCZBCnYeyVnuVAldniJcgBJpgVHJvbGwgU2NpcHQgRm9yIEJyb29raGF2ZW4='), function()
+    print(iqCPpifTuoKw('yLUSQutoodfCmiMvCBUkoveccQoBNbSTLwrJqqjfnDTUopisgCefjOAQ2xpY2tlZA=='))loadstring(game:HttpGet(iqCPpifTuoKw('LJMwkbcqiivJlAYuEMluLlOAyGgdPTHqugeCtEsgVvrNLZbfwSkjMitaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0p1bEh1YnovSnVsSHViL21haW4vSnVsSHVi')))()
+end) Section:NewButton(iqCPpifTuoKw('XtQjaxpeasiIjMrxpfHAAKejFpwLvGtHyYxeasdwSXgVggjuCdxJGBTUkVEeiBIdWI='), iqCPpifTuoKw('qsrFlYIgtHlushTGlkLwYLveyzULvPWwMnMbGWbToNTYPTATCPQuaPSVHJvbGwgU2NpcHQgRm9yIEJyb29raGF2ZW4='), function()
+    print(iqCPpifTuoKw('PecZvsmkmCkDIQlHlfSDIyDCzAMKMFyWrdbojZQxXXZbiwmLjNWNOtbQ2xpY2tlZA=='))loadstring(game:HttpGet(iqCPpifTuoKw('CjzWKlzoIujoWgXKuPZDBuFPBQkbGyJeqmfAYXRevGdTFlMHShSqTRbaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL1JFRHpIVUIvUkVEekhVQi9tYWluL1JFRHpIVUI=')))()
+end) Section:NewButton(iqCPpifTuoKw('oOWtFmFTyrOmECKLMYIcqtTEzCzYjWjJVaQzsOBywVcuowDRDONTXYMQXRvbWljIEh1Yg=='), iqCPpifTuoKw('oDwLLSEaeGHIjBzoidItDwVmAjMRZGxLnBbVTGbAyPAOhVMBlRRXDekVHJvbGwgU2NpcHQgRm9yIEJyb29raGF2ZW4='), function()
+    print(iqCPpifTuoKw('TRBNKyzpMmQFKkaFDHxTKbhSYuDWlROarMMnzufJdDnptjZCsEPxrYiQ2xpY2tlZA=='))loadstring(game:HttpGet(iqCPpifTuoKw('byURDQDudnFudowcGkpMfRBYXHUAtyDrsxsfiXDjVZMwFyeftSQCdQWaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL24wa2MvQXRvbWljSHViL21haW4vU2NyaXB0Lmx1YQ==')))()
+end) Section:NewButton(iqCPpifTuoKw('BHFtcUKbKFZCnsIacniRftFYtQrLWXRWbiLLifJHqDvkYCmWrJWhnMoQXRvbWljIEh1YiB8IEFyYWJpYw=='), iqCPpifTuoKw('WpeoqtHGdTuCvZGdZJKuFjbAfEIzNgvTkUacKoJcUjjaEHEhhHpdZhpVHJvbGwgU2NpcHQgRm9yIEJyb29raGF2ZW4='), function()
+    print(iqCPpifTuoKw('UKMXjXYifjXCyuiPCaHTTPbZjKRIRsCicCZYfFwfUMKEEnfvpZgHeFbQ2xpY2tlZA=='))loadstring(game:HttpGet(iqCPpifTuoKw('RXMKlPkaODcwtYDXNnhNJujsKZJKjVbJNtDhSuJWlEjEJDXgAsAvgnVaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL24wa2MvQXRvbWljSHViL21haW4vTWFwLUFsLUJpb3V0Lmx1YQ==')))()
+end) Section:NewButton(iqCPpifTuoKw('yXxQtLoYCnPwlaEqYqCCaCfgbXAMDpkgEatonRtBytigQaMdyZPjSVYU3lzdGVtX0Jyb2tlbg=='), iqCPpifTuoKw('DMwglKVgBRzGSBlXpPKfyvuSDLgKPYPBkgXIWJumWpCqbSqcRCKaXNVVHJvbGwgU2NpcHQgRm9yIEJyb29raGF2ZW4='), function()
+    print(iqCPpifTuoKw('oiapaeEurliehWfrTPHftwwkWloKCBjFDbLmvlUMuCBrdWdxwgHkjXHQ2xpY2tlZA=='))loadstring(game:HttpGet(iqCPpifTuoKw('XZHSFltdZRRfOScJWhaVFYtuoxYzfUAUyCCeeLCdJxExVRBWYhLKJcUaHR0cHM6Ly9zY3JpcHRibG94LmNvbS9yYXcvUmFnZG9sbC1FbmdpbmUtQkVTVC1TQ1JJUFQtV09SS0lORy1TeXN0ZW1Ccm9rZW4tNzU0NA==')))()
+end) Section:NewButton(iqCPpifTuoKw('gopxUBzXwbDfMoJXQNDLrODJjVtgprOTfRogPFesIftTYZberclbquyVFAgVG9vbA=='), iqCPpifTuoKw('AudTIhCZIUPTiLFOzWqUoAdCVUrCHkTTLVkjeGjHmeoeRAQsNgJgdZtVHJvbGwgU2NpcHQgRm9yIEJyb29raGF2ZW4='), function()
+    print(iqCPpifTuoKw('GyPcAbMmCQysrSJfJwRGZAvgbBnntldhezeTQECpStYmopfsaKTUHnRQ2xpY2tlZA=='))loadstring(game:HttpGet(iqCPpifTuoKw('SeAyaEBzLlubtxmfqDqERqhJfYIuPHRTInhlkWmFANbZWvklRwDHNveaHR0cHM6Ly9zY3JpcHRibG94LmNvbS9yYXcvQnJvb2toYXZlbi1SUC1NaWtlZXhjLVRwdG9vbC1WMS0xMDk2MA==')))()
+end) Section:NewButton(iqCPpifTuoKw('pUtNssaUzLTsKFcPrwrCzkpDcCxFamZLhTUJiTwbiYvHZeijadWJQWwVGVsZWtpbmVzaXM='), iqCPpifTuoKw('phBcBmVOSEJYNgXcgWCQUtvywySlcPKUEddWzKQTalRPxrhbszPyPcWVHJvbGwgU2NpcHQgRm9yIEJyb29raGF2ZW4='), function()
     
-print("Clicked")loadstring(game:HttpGet(('https://raw.githubusercontent.com/SAZXHUB/Control-update/main/README.md'),true))()
-end) Section:NewButton("®4D", "Troll Scipt For Brookhaven", function()
-    print("Clicked")loadstring(game:HttpGet('https://raw.githubusercontent.com/M1ZZ001/BrookhavenR4D/main/Brookhaven%20R4D%20Script'))()
+print(iqCPpifTuoKw('uUFGpxZGqQnUIgJwzdcvJhOebyswZxyspsWjChgCUTVuWIOfxmxeDSrQ2xpY2tlZA=='))loadstring(game:HttpGet((iqCPpifTuoKw('mpKNYrKkwxorSIwOlQmFgsAFpHDQpLXzcBZHpCGDBZbeBeTdBCTUoFFaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL1NBWlhIVUIvQ29udHJvbC11cGRhdGUvbWFpbi9SRUFETUUubWQ=')),true))()
+end) Section:NewButton(iqCPpifTuoKw('mJvtRMnvkOvJtYezasiKgAHioJVGaTwPngdOdEgNQdMSMAhbxwkaaJqwq40RA=='), iqCPpifTuoKw('JIwnCgPYYVWtExxSfrwMbDIJGUyWtjbYmWSxpRwNDsvGWPgXsGqKeHBVHJvbGwgU2NpcHQgRm9yIEJyb29raGF2ZW4='), function()
+    print(iqCPpifTuoKw('WjnMEepcaysioLaotxZHBpkSyiAjBtvejQtNElMhCfWpEEgZeFgCGMkQ2xpY2tlZA=='))loadstring(game:HttpGet(iqCPpifTuoKw('kcqlccfKOWXiVAWlZpbPZqvDBublRZrwjyMZpKcIPPIOCNnJkExWZUqaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL00xWlowMDEvQnJvb2toYXZlblI0RC9tYWluL0Jyb29raGF2ZW4lMjBSNEQlMjBTY3JpcHQ=')))()
 end) 
 
 
-local Tab = Window:NewTab("Blox Fruits")
-local Section = Tab:NewSection("The Script Was Created By Slender!!!")
-Section:NewButton("REDz Hub", "Auto Farm Script For Blox Fruits", function()
-    print("Clicked")loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
-end) Section:NewButton("Zen Hub", "Auto Farm Script For Blox Fruits", function()
-    print("Clicked")loadstring(game:HttpGet("https://raw.githubusercontent.com/Zenhubtop/zen_hub_pr/main/zennewwwwui.lua", true))()
-end) Section:NewButton("Black Trap Project", "Auto Farm Script For Blox Fruits", function()
-    print("Clicked")loadstring(game:HttpGet("https://scriptblox.com/raw/GHOST-Blox-Fruits-BT-Project-9287"))()
-end) Section:NewButton("Mystic Hub", "Auto Farm Script For Blox Fruits", function()
-    print("Clicked")loadstring(game:HttpGet("https://raw.githubusercontent.com/mo061/MysticHub/main/README.md"))()
-end) Section:NewButton("Min XT Hub", "Auto Farm Script For Blox Fruits", function()
-    print("Clicked")loadstring(game:HttpGet"https://raw.githubusercontent.com/Basicallyy/Basicallyy/main/Min_XT_V2_.lua")()
-end) Section:NewButton("W-Azure", "Auto Farm Script For Blox Fruits", function()
-    print("Clicked")loadstring(game:HttpGet("https://scriptblox.com/raw/Blox-Fruits-w-azure-hub-10114"))()
-end) Section:NewButton("Vector Hub", "Auto Farm Script For Blox Fruits", function()
-    print("Clicked")loadstring(game:HttpGet("https://pastebin.com/raw/4QtEAA6g"))()
-end) Section:NewButton("Annie Hub", "Auto Farm Script For Blox Fruits", function()
-    print("Clicked")loadstring(game:HttpGet("https://raw.githubusercontent.com/Anniecuti/Free-Scr/main/Annie-Hub.lua"))()
-end) Section:NewButton("Auto Chest Blox fruit(Mtrial hub)", "Auto Farm Script For Blox Fruits", function()
-    print("Clicked")getgenv().Config = {
-    ["StartFarmChest"] = true,
-    ["Team"] = "Marines",
-    ["TimeReset"] = 5, -- No Edit
-    ["White Screen"] = false,
-    ["Stop The God's Chalice"] = true,
-    ["Stop The Fist of Darkness"] = true,
-    ["HopServer"] = {
-        ["Enable"] = true,
-        ["BypassServer"] = true,
-        ["Region"] = "Singapore"
-    },
-    ["Server Discord"] = "https://discord.gg/mFzWdBUn45"
-}
-repeat wait() until game:IsLoaded()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Minhtriettt/Free-Script/main/Chest-Farm.lua"))()
-end) Section:NewButton("Bounty hunt script(MTriet Hub)", "Auto Farm Script For Blox Fruits", function()
-    print("Clicked")getgenv().Config = {
-    ["Team"] = "Pirates", --// Marines, Pirates
-    ["Webhook"] = {
-        ["Enable"] = false, --// Enable if you have Webhook Url
-        ["Url"] = "" --// Your webhook url
-    },
-    ["Skip"] = {
-        ["V4"] = true, --// Skip V4
-        ["Fruit"] = { --// Skip Fruit
-            "Leopard-Leopard",
-            "Venom-Venom",
-            "Dough-Dough",
-            "Portal-Portal"
-        }
-    },
-    ["Chat"] = {
-        ["Enable"] = false, --// Enable Chat
-        ["Content"] = {"Hello me use MTriet Hub Auto Bounty"} --// Content
-    },
-    ["Misc"] = {
-        ["Hide If Low Health"] = true, --// Run
-        ["Hide Health"] = {4000,5000}, --// Health for run
-        ["Lock Camera"] = true, --// Lock Cam to target
-        ["FPS Boost"] = false, --// Booster FPS
-        ["White Screen"] = false, --// White Screen
-        ["Bypass TP"] = true, --// Bypass TP 1 -> 2 hit
-        ["Spam All Skill On V4"] = true, --// If you have v4, warn: change your weapon setting
-        ["Gun Method"] = false --// Enable if you use gun
-    },
-    --// Copy Next
-    ["Weapons"] = {
-        ["Melee"] = {
-            ["Enable"] = true,
-            ["Delay"] = 2.5,
-            ["Skills"] = {
-                ["Z"] = {["Enable"] = true, ["HoldTime"] = 0.1},
-                ["X"] = {["Enable"] = true, ["HoldTime"] = 0.1},
-                ["C"] = {["Enable"] = true, ["HoldTime"] = 0},
-                ["V"] = {["Enable"] = false, ["HoldTime"] = 0}
-            }
-        },
-        ["Blox Fruit"] = {
-            ["Enable"] = false,
-            ["Delay"] = 3,
-            ["Skills"] = {
-                ["Z"] = {["Enable"] = true, ["HoldTime"] = 0},
-                ["X"] = {["Enable"] = true, ["HoldTime"] = 0},
-                ["C"] = {["Enable"] = true, ["HoldTime"] = 0},
-                ["V"] = {["Enable"] = true, ["HoldTime"] = 0},
-                ["F"] = {["Enable"] = false, ["HoldTime"] = 0}
-            }
-        },
-        --// Copy Next
-        ["Sword"] = {
-            ["Enable"] = true,
-            ["Delay"] = 1.5,
-            ["Skills"] = {
-                ["Z"] = {["Enable"] = true, ["HoldTime"] = 1},
-                ["X"] = {["Enable"] = true, ["HoldTime"] = 0}
-            } 
-        },      
-        ["Gun"] = {
-            ["Enable"] = true,
-            ["Delay"] = 1.2,
-            ["Skills"] = {
-                ["Z"] = {["Enable"] = true, ["HoldTime"] = 0},
-                ["X"] = {["Enable"] = true, ["HoldTime"] = 0}
-            } 
-        }
-    }
-}
-repeat wait() until game:IsLoaded()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Minhtriettt/Hunt/main/AutoBountyV2.lua"))()
+local Tab = Window:NewTab(iqCPpifTuoKw('gBAikUDrGgQHvUhCHnXHBkOEoIydIlKfazEFLZgJajufCJlcfNUJcmWQmxveCBGcnVpdHM='))
+local Section = Tab:NewSection(iqCPpifTuoKw('PnfHZgiXKRnUtYJHgyertAHvvkfknOClbDYdEtIieuLhYJGiLFNCTdUVGhlIFNjcmlwdCBXYXMgQ3JlYXRlZCBCeSBTbGVuZGVyISEh'))
+Section:NewButton(iqCPpifTuoKw('GwaDiqRxOnLcHKKLVoOgKbqBVtUQDmmRYNKERyIwbMGEnSvpFCWGOxwUkVEeiBIdWI='), iqCPpifTuoKw('hNPaHDpLHYZvijJAPsNnFLvqnfCcYAZxHYKVhcMZtMzAINZGvMbZqBRQXV0byBGYXJtIFNjcmlwdCBGb3IgQmxveCBGcnVpdHM='), function()
+    print(iqCPpifTuoKw('sSRsPTnyhAbNyZLFoyZUjZTtDNcIZrARlhqmSVabMNCPjGZkMvaXfnvQ2xpY2tlZA=='))loadstring(game:HttpGet(iqCPpifTuoKw('ViaZGvjVePPTfOjYaIwkSdgowmIAeHPvnEOmfbJSwHbymexbUQkGJVhaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL1JFRHpIVUIvQmxveEZydWl0cy9tYWluL3JlZHo5OTk5')))()
+end) Section:NewButton(iqCPpifTuoKw('UsCkoOSNKOvGvuGrReAAHiSCahPXBBsTvkGYFHmtdMCxMtuSYdjUYgwWmVuIEh1Yg=='), iqCPpifTuoKw('hITdbjnDSJDENDxAIvjLFEhEFKrdoOZtwefUaWlcwnVNzONnDolodIIQXV0byBGYXJtIFNjcmlwdCBGb3IgQmxveCBGcnVpdHM='), function()
+    print(iqCPpifTuoKw('sAYKqtfvCYAoGffUzNKvRRzeUMGcRgPHheYUaPpSABHrPofISLTzbklQ2xpY2tlZA=='))loadstring(game:HttpGet(iqCPpifTuoKw('BavlHFDrWNLYsptOquZMjKXHTboCLSLBUZXTPDEDxkVdByvBtBShSNqaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL1plbmh1YnRvcC96ZW5faHViX3ByL21haW4vemVubmV3d3d3dWkubHVh'), true))()
+end) Section:NewButton(iqCPpifTuoKw('buCcqwoPEKBgjWbNshNxfwDQsjffqCGHaAajXDAIsMynyGrLKZxIyKOQmxhY2sgVHJhcCBQcm9qZWN0'), iqCPpifTuoKw('MYnXMKWKLPkjyhdClKXjdPDEIntVfrcPhUBHguEbGvDoyQmVanZjmicQXV0byBGYXJtIFNjcmlwdCBGb3IgQmxveCBGcnVpdHM='), function()
+    print(iqCPpifTuoKw('uOrkdrkfWTqcXInEdBBZkDwzbmrwpcKwutoMrHNNuHmcFZIHoJBPdiMQ2xpY2tlZA=='))loadstring(game:HttpGet(iqCPpifTuoKw('yTezfQqYpdueCLopGDJXkGhhvCwILyLbfWNKnQBZHncrJbturofhGhzaHR0cHM6Ly9zY3JpcHRibG94LmNvbS9yYXcvR0hPU1QtQmxveC1GcnVpdHMtQlQtUHJvamVjdC05Mjg3')))()
+end) Section:NewButton(iqCPpifTuoKw('BucXYAAxwIlcjvKYJoavANUDBbIfQLixpGycBTjqvpNvgvJbKoEfneSTXlzdGljIEh1Yg=='), iqCPpifTuoKw('VVRFnQWXYnALSUugiogzxxHKGmvUKuKiTDYWMlYzMcvwiYMqeNfHbGYQXV0byBGYXJtIFNjcmlwdCBGb3IgQmxveCBGcnVpdHM='), function()
+    print(iqCPpifTuoKw('tbRgFvxIfEyRHWidFzZWBePdAuvYVTkvupkqnKelOiiDsbyNSwtuYeNQ2xpY2tlZA=='))loadstring(game:HttpGet(iqCPpifTuoKw('uNFjuAPSuRYHuKvzyoGMapkCiGlsRnMnDBzqxmCFKfuWvfbZdmHZqRUaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL21vMDYxL015c3RpY0h1Yi9tYWluL1JFQURNRS5tZA==')))()
+end) Section:NewButton(iqCPpifTuoKw('qFjMEKpcEMIVSVEecgzbeyXULBnSzFCaIRyaVkrlmRCEFQsPGDwRlTVTWluIFhUIEh1Yg=='), iqCPpifTuoKw('eghxsrZMHAsBbuhWdjNdOFTXfNHDhXHEJcJkhAmIlCuDQzDbpKWFMiYQXV0byBGYXJtIFNjcmlwdCBGb3IgQmxveCBGcnVpdHM='), function()
+    print(iqCPpifTuoKw('nPUrhcsNFDgbJPQstrSRoQrrQunTXsTOJwSaEBzpqoVbqXEhpdqSkewQ2xpY2tlZA=='))loadstring(game:HttpGetiqCPpifTuoKw('yqSnictRtbUCUnodQyXnyZlaIZTPRrybmEoRPEpGNZQHjHEIOnvDIxcaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0Jhc2ljYWxseXkvQmFzaWNhbGx5eS9tYWluL01pbl9YVF9WMl8ubHVh'))()
+end) Section:NewButton(iqCPpifTuoKw('BnTMKkIMpzeFLNZVGGaIpHVPOavJOXSEJZvldKbjKoStfNoQTLnjrDcVy1BenVyZQ=='), iqCPpifTuoKw('YjExgOdJKQbDCXCazHzJxGswqVhQfNpncGDnRvUlNpmodErZBtlrWbUQXV0byBGYXJtIFNjcmlwdCBGb3IgQmxveCBGcnVpdHM='), function()
+    print(iqCPpifTuoKw('fmsTbdPNwuEkimVXWuEwewzLwcvgZJVbugoCXPPJMZZbfZNWjZkudDHQ2xpY2tlZA=='))loadstring(game:HttpGet(iqCPpifTuoKw('OmiWInYkPrepoOrgXHZJbfrSoVrdHmBKoZhOeleNWrWPQQzLXzwvINBaHR0cHM6Ly9zY3JpcHRibG94LmNvbS9yYXcvQmxveC1GcnVpdHMtdy1henVyZS1odWItMTAxMTQ=')))()
+end) Section:NewButton(iqCPpifTuoKw('jgZGwefBcHLmzRgmxEDJkXsgdbNxnGzknkgMdAYqFLtjAZFycrOyBXZVmVjdG9yIEh1Yg=='), iqCPpifTuoKw('SAngOWNRYSWjyuBFWPhuVrzJeYyDaOHTqfMTMXXDnPpbCXykUQrKIeRQXV0byBGYXJtIFNjcmlwdCBGb3IgQmxveCBGcnVpdHM='), function()
+    print(iqCPpifTuoKw('zMFdJeesAnfxsPrPNnAjkLoUXpntFUQbMWAQyixsZlVxfavwKyaokGbQ2xpY2tlZA=='))loadstring(game:HttpGet(iqCPpifTuoKw('ZAKuAimRnSwtaTvUYnxwzMgQDYSaGnplPSHlTuklwPmyEsWfEVkDUAEaHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3LzRRdEVBQTZn')))()
+end) Section:NewButton(iqCPpifTuoKw('YJdhpmuwkqGjrniDGFbMbdnNOcJjYHidMIPFlMRqfSzFFdcrFdLEPwRQW5uaWUgSHVi'), iqCPpifTuoKw('BqdnVpSbNruRAmYVPskskIVyjlrEAaNhpiBOZCcjGzaSEaaDkrTQwsWQXV0byBGYXJtIFNjcmlwdCBGb3IgQmxveCBGcnVpdHM='), function()
+    print(iqCPpifTuoKw('ENnJTTspRWMxxxrFANoublAAhkilYedmWEzINVgnaWqCBFKPontzwiPQ2xpY2tlZA=='))loadstring(game:HttpGet(iqCPpifTuoKw('DNIcJShOjryQkXfKQWXheuRtqacrjnWtfqulQWZqbMGjLwWZxvHcneuaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FubmllY3V0aS9GcmVlLVNjci9tYWluL0FubmllLUh1Yi5sdWE=')))()
+end) Section:NewButton(iqCPpifTuoKw('jewdHXMOswWMaIuuGhCaHckrhqfPyJvbJAdqYOJcRQfRyzbQUekEEekQXV0byBDaGVzdCBCbG94IGZydWl0KE10cmlhbCBodWIp'), iqCPpifTuoKw('PIcuxqfqVNtnCtZkpymmzBAvmuBFbrBAobgEgIrBIspQjKEtBzmuwiIQXV0byBGYXJtIFNjcmlwdCBGb3IgQmxveCBGcnVpdHM='), function()
+    print(iqCPpifTuoKw('sdFSbcyqDeVDUqjninoeCcpWqWJgqZAAwfiwxRnmoZxeotNRvQzhvNgQ2xpY2tlZA=='))getgenv().Config = {
+    [iqCPpifTuoKw('uxwjiHoHehVwJlWPimXcgbMoEqEemKzBPZyjTfpihsgMfBDYshkPiHYU3RhcnRGYXJtQ2hlc3Q=')] = true,
+    [iqCPpifTuoKw('BZOkxifaNStkXMUjtVsjUbINPaRfgTSOrWFAnlWnRGSEQYorXWqZakaVGVhbQ==')] = iqCPpifTuoKw('nwMqhXPjJYAwYONMrfkWnnIrZnejMCQiWYpumWWQKvacrSKAoynswbJTWFyaW5lcw=='),
+    [iqCPpifTuoKw('uOtoWuQBbQyTekynxYENHrziqthjanJWheMXCzdlkVpVBFpGIVqOfJwVGltZVJlc2V0')] = 5, -- No Edit
+    [iqCPpifTuoKw('XvCJldmQOTgoPYawbvrxCgwPgNVNhNfliXDtoTnZJnjjcPgWHfawCcyV2hpdGUgU2NyZWVu')] = false,
+    [iqCPpifTuoKw('munffXBgdJmeIPezjBLwuATBABXtViHRKvxYhpfIcFBQmWMTJJotukgU3RvcCBUaGUgR29k')s ChaliceiqCPpifTuoKw('iTpvrgRTspdqLseAHhwqcFWVqwwlgphdoyzwrLEvXeoFsJxUMxNAvHcXSA9IHRydWUsDQogICAgWw==')Stop The Fist of DarknessiqCPpifTuoKw('lnVyMPEDXqGiBkIqIrSVYUAJwXZUtvSKGyelSOzmvudhhcRGRsEPBCuXSA9IHRydWUsDQogICAgWw==')HopServeriqCPpifTuoKw('GshmjgwbzmRjEubdlZvjpwUJUDvGbHzFANrkgwwaBuLfYavTVEOKGGPXSA9IHsNCiAgICAgICAgWw==')EnableiqCPpifTuoKw('CVBGmUmznURaKGGObcxecBgHaCohlKbbcAmbBDOEJjyIBZXggLwmkYRXSA9IHRydWUsDQogICAgICAgIFs=')BypassServeriqCPpifTuoKw('qQnNJgdVwCvUTEXhpulCGFsTRNVxtiqgSZgqHpailnrdGSBhSCyNbTpXSA9IHRydWUsDQogICAgICAgIFs=')RegioniqCPpifTuoKw('LYbYWuMBhIEZubAZsoTxGXSAuUhtLlxErDlAnfrOlUmdJwIouaycazbXSA9IA==')SingaporeiqCPpifTuoKw('jaTGILvNilYkPAptzgGmwASlQDiUDVQSGtXTUJyYNsWdUCrtpciKgXlDQogICAgfSwNCiAgICBb')Server DiscordiqCPpifTuoKw('zgZEanXJdlDxSgfGxrcwHDcyplmxiuUpmASjnroXCUbFEKvKvfphcDaXSA9IA==')https://discord.gg/mFzWdBUn45iqCPpifTuoKw('DXygLGDXtmNpuDmjCmXAgUkKqGhqsdLwSYzOFUksUfgVLkAOUOeWbIuDQp9DQpyZXBlYXQgd2FpdCgpIHVudGlsIGdhbWU6SXNMb2FkZWQoKQ0KbG9hZHN0cmluZyhnYW1lOkh0dHBHZXQo')https://raw.githubusercontent.com/Minhtriettt/Free-Script/main/Chest-Farm.luaiqCPpifTuoKw('sYitsxcYxKUCYmwNvaDxhkuwAYTLoZqmnFyFPluKPOuVMFibYiMwjZWKSkoKQ0KZW5kKSBTZWN0aW9uOk5ld0J1dHRvbig=')Bounty hunt script(MTriet Hub)iqCPpifTuoKw('FFlYndAOPVEGBeyrSwRkIHcixrRvbGHILAQLYAmKdAyhOOhOqwCzYCdLCA=')Auto Farm Script For Blox FruitsiqCPpifTuoKw('YdzhroqciXYpcSxMEyjCBRzRcbBJwuJYgniodIvkXXZvOXPVXMNoyXOLCBmdW5jdGlvbigpDQogICAgcHJpbnQo')ClickediqCPpifTuoKw('QlbxpEVeFFOrOOJfUxWDudUPQxOUrPtXpMtwLxqarpXqAoNNGoZKawKKWdldGdlbnYoKS5Db25maWcgPSB7DQogICAgWw==')TeamiqCPpifTuoKw('lrCwHFrADTgtlqWdQdXdBDFbJmACvTSaAylabptTAtnpKytgARoujkuXSA9IA==')PiratesiqCPpifTuoKw('bBAbnFDVlJtkncvRKXZPXTFsZwwKcNZgDTiJhqBvOnLAKJlGkunxgazLCAtLS8vIE1hcmluZXMsIFBpcmF0ZXMNCiAgICBb')WebhookiqCPpifTuoKw('OiUXFpTSWUHfSGntQJITukklmJLtuKLwaIhqrWskhbZITIRrXYNauDvXSA9IHsNCiAgICAgICAgWw==')EnableiqCPpifTuoKw('tqaUOSMVczhjormHXCaFdIaOXIISWcYAZFZBwShxWchENcINnIhwQniXSA9IGZhbHNlLCAtLS8vIEVuYWJsZSBpZiB5b3UgaGF2ZSBXZWJob29rIFVybA0KICAgICAgICBb')UrliqCPpifTuoKw('ZQLxXbRFdlcTdYtqAFkqZvyblXWFUzWfepoePeziaKuRAcWlZlYWXjaXSA9IA==')iqCPpifTuoKw('DqaDyvBdxBYPDsHvIPNlldPsBDZWkitLMqTBAPgJHnhOElQpsXBrXViIC0tLy8gWW91ciB3ZWJob29rIHVybA0KICAgIH0sDQogICAgWw==')SkipiqCPpifTuoKw('iDkFmoiAgjTRXIudAmBvLnEEPhlmCsmkThYZCoItvfIGEUFpsSxavNKXSA9IHsNCiAgICAgICAgWw==')V4iqCPpifTuoKw('dfapZhxWgkeRvVouOdcRKXHxsZZrGcNUYApxSOmOPeRKeXTuLRYdUuGXSA9IHRydWUsIC0tLy8gU2tpcCBWNA0KICAgICAgICBb')FruitiqCPpifTuoKw('fMzgJdiYNyZOdzFuNsenrsWwJadenxNugWcUfCRbPbKqPtUVGnbGJGQXSA9IHsgLS0vLyBTa2lwIEZydWl0DQogICAgICAgICAgICA=')Leopard-LeopardiqCPpifTuoKw('sgGMfaAQGpZJClCCIPmEhZtkpGUlZPQADHebdtJHYEHFQwAYmImKeThLA0KICAgICAgICAgICAg')Venom-VenomiqCPpifTuoKw('wrUVnszDFpWHWifWrBrjhDqIfoKiPtNgVAnDVmCIHoDtJjGpxuTOQBYLA0KICAgICAgICAgICAg')Dough-DoughiqCPpifTuoKw('BqKsRFszWaJmkGiyKdDCapHbuglMblfLtcHbWEqlDlMvrtCengMwOhCLA0KICAgICAgICAgICAg')Portal-PortaliqCPpifTuoKw('ZwpXpzegBLwDNpHHxjuolFzbfgdVekijpKDyadTHmSjdwagqiDduhWvDQogICAgICAgIH0NCiAgICB9LA0KICAgIFs=')ChatiqCPpifTuoKw('QoUouyYvffXaGoCQUTRhGSwZDhtrtZDzyoaYKAZXEBvwUNBJFVrPTSmXSA9IHsNCiAgICAgICAgWw==')EnableiqCPpifTuoKw('bVjNBnAdAHZfPLHMYgWemvCoMiEBILocYvweZxtzPaaSWetEByUHyyZXSA9IGZhbHNlLCAtLS8vIEVuYWJsZSBDaGF0DQogICAgICAgIFs=')ContentiqCPpifTuoKw('XJTjqFrmJwjiNUSCjzICydcwEWdMtWRcViaJnQCnUtybFNQvWKhNRTSXSA9IHs=')Hello me use MTriet Hub Auto BountyiqCPpifTuoKw('siLYCFlDJPmmdKOuyqPxePkRiiKTuBOtawFhzReddAwyIKHmYuDprnBfSAtLS8vIENvbnRlbnQNCiAgICB9LA0KICAgIFs=')MisciqCPpifTuoKw('cybuWCyTQTHBMFWnuqXdHmZOFOAUNaBCpJtCZXgbxtvwZaSVwUQHzVZXSA9IHsNCiAgICAgICAgWw==')Hide If Low HealthiqCPpifTuoKw('LnlYWmxydTAMbVOPSnbKLsVlMddAiylhiLogofkCuaqLlMKMFHYAKRxXSA9IHRydWUsIC0tLy8gUnVuDQogICAgICAgIFs=')Hide HealthiqCPpifTuoKw('ZheiRcibvopJfmqJLQXYjCZJiECVApGsNLScpLYQReCdiTdXrHExNoJXSA9IHs0MDAwLDUwMDB9LCAtLS8vIEhlYWx0aCBmb3IgcnVuDQogICAgICAgIFs=')Lock CameraiqCPpifTuoKw('UXNbopckYKRdFRJOYEBvuvbclWCaCXmfmAsPYUkOtXcpbEmuYaiJVSlXSA9IHRydWUsIC0tLy8gTG9jayBDYW0gdG8gdGFyZ2V0DQogICAgICAgIFs=')FPS BoostiqCPpifTuoKw('WIVpAzUarLiRITsInSjoZSvMzhqxuqmbSFdaCKqeJzBIchtIYrIYnsYXSA9IGZhbHNlLCAtLS8vIEJvb3N0ZXIgRlBTDQogICAgICAgIFs=')White ScreeniqCPpifTuoKw('dFvpwycGvgthyWtGtBFmDYHoINNPcRDjjpJuxAORHuNrgNinntrsJgzXSA9IGZhbHNlLCAtLS8vIFdoaXRlIFNjcmVlbg0KICAgICAgICBb')Bypass TPiqCPpifTuoKw('VfiSTGqliYTqwMXzvbpidVppPCyehUKGvBqRfaUPsCMQUyWurrNxXNrXSA9IHRydWUsIC0tLy8gQnlwYXNzIFRQIDEgLT4gMiBoaXQNCiAgICAgICAgWw==')Spam All Skill On V4iqCPpifTuoKw('KTzYcOgnhpPaeTROBUJSpFUGKEAKrVgNoOFagyhGjExqpRkHPoNFqZQXSA9IHRydWUsIC0tLy8gSWYgeW91IGhhdmUgdjQsIHdhcm46IGNoYW5nZSB5b3VyIHdlYXBvbiBzZXR0aW5nDQogICAgICAgIFs=')Gun MethodiqCPpifTuoKw('jiBfibULzrbNMOQKJZiWUtkougnwVTVjHFHMoKHmtThzRCjBSlPTQzQXSA9IGZhbHNlIC0tLy8gRW5hYmxlIGlmIHlvdSB1c2UgZ3VuDQogICAgfSwNCiAgICAtLS8vIENvcHkgTmV4dA0KICAgIFs=')WeaponsiqCPpifTuoKw('CHlvkFlypVbvNOJBApjxfEQmKvaATKynJZYWlyGhRbZliVEDAJCZcpTXSA9IHsNCiAgICAgICAgWw==')MeleeiqCPpifTuoKw('XZJIDvyyDFrUMwBHtNGFomMZBUagdySpgcufigNynpCcedwTFMNkISXXSA9IHsNCiAgICAgICAgICAgIFs=')EnableiqCPpifTuoKw('kBXCxIQOQbEwJXPMAcdVjhVGiOBRAcaevnEtWwMePLWdShNTWbxyZroXSA9IHRydWUsDQogICAgICAgICAgICBb')DelayiqCPpifTuoKw('DOoNNsSFKxhXLFItyISslwSmWIxktYAcSizpTvRaUCwreAITinwHwTqXSA9IDIuNSwNCiAgICAgICAgICAgIFs=')SkillsiqCPpifTuoKw('lGIpzBSLTfYxpAkzcyGQNDNhCjepwlAsHOIxNYHycUKWQUaLlZXotkoXSA9IHsNCiAgICAgICAgICAgICAgICBb')ZiqCPpifTuoKw('hiLTiNEPwZjRHuYcgwWTDaYuAfWtqgImkCOGgvxAaLtjeQXmJTiTieVXSA9IHtb')EnableiqCPpifTuoKw('QSamZZdjPjIoIdYFgqJfspTyzDfPWViQzLjVBJFiHeNCCucNjtzErNfXSA9IHRydWUsIFs=')HoldTimeiqCPpifTuoKw('bpyRyETUSjZbwdoUPNnpbMFzmJxmtmbgJNZgCnFRMwoXMOwyQSmnxhFXSA9IDAuMX0sDQogICAgICAgICAgICAgICAgWw==')XiqCPpifTuoKw('NlUJTBXOtIazKYngsBTcbAtJSwhgKAXmtlpdpQOfbhwiimlcsLuHuRDXSA9IHtb')EnableiqCPpifTuoKw('uMxfveZcSClxGlynFaItkestiBNgDFHziDuuvJFfPwDRNJJIucekpShXSA9IHRydWUsIFs=')HoldTimeiqCPpifTuoKw('bcrKxdNSWuHhmyDXwMMLeqXzHhKsxzDhxwoNuNOOxmyHJrnrJObklhjXSA9IDAuMX0sDQogICAgICAgICAgICAgICAgWw==')CiqCPpifTuoKw('SCVILvyCMJHUtuHJRGwVWRIoUzFSUyHgLuaCWnwSsgUTRwYUxKrpnQgXSA9IHtb')EnableiqCPpifTuoKw('gbaEsJpHyVptJQrqYCmUSUmKMeOPcZkKhEmeYoIfoCiTzxFIfLgWNamXSA9IHRydWUsIFs=')HoldTimeiqCPpifTuoKw('nMBsUiWzAJjKwuuqzGaeGuTWLwWczyQVCSlrJbqzJYVFFdOuGlxnWOMXSA9IDB9LA0KICAgICAgICAgICAgICAgIFs=')ViqCPpifTuoKw('HMLdpbKAOpCjhhprhSsbfiqPLgrrTJTEqoLibAGRVYmAQFhmEgXnSXmXSA9IHtb')EnableiqCPpifTuoKw('RDFwIioYqpfQoSotJkUpfqpPpiPgwIAVMDEfdrHLIsXIVIjCzmORhnoXSA9IGZhbHNlLCBb')HoldTimeiqCPpifTuoKw('KDdCusAJwOEmbBJHjDhARiuwylBuhoyEvUbMAlbvhtGjwEGlbUFLeHxXSA9IDB9DQogICAgICAgICAgICB9DQogICAgICAgIH0sDQogICAgICAgIFs=')Blox FruitiqCPpifTuoKw('yEBBRcceyFxJbFgnWAbnrqEkaywvBgwkFHuonAsJpMrGOupWyRGBFoaXSA9IHsNCiAgICAgICAgICAgIFs=')EnableiqCPpifTuoKw('KkVMqqmQzQcnmxYVxIhZRSErkHUVrSzyqamRKKUXnNtRhBwyvKALEqQXSA9IGZhbHNlLA0KICAgICAgICAgICAgWw==')DelayiqCPpifTuoKw('stmAeXpSxraSYfUevmDAllRcTGPCEcCcRVlExdygwyilPwVJiHEchdXXSA9IDMsDQogICAgICAgICAgICBb')SkillsiqCPpifTuoKw('OAWztWqQhxNaarvguUMDWWUeSSeHoSzMRXcyMBzAyyqWWfvQRSFxmSBXSA9IHsNCiAgICAgICAgICAgICAgICBb')ZiqCPpifTuoKw('lxklAImHQQAzRaLKboFQJFzlvJlQmpLOzPdduUxmLHZsRGXChngnERGXSA9IHtb')EnableiqCPpifTuoKw('uGcVveabSzuvtShbVibZEYZDuuptAfPhwRLQLqPNyqwvIUQavaJqZMmXSA9IHRydWUsIFs=')HoldTimeiqCPpifTuoKw('gvBCKqNwVmgFvXgvUMuebLQYcbkAhGwBYlGhQyhqcGpnjoAdcmTuUodXSA9IDB9LA0KICAgICAgICAgICAgICAgIFs=')XiqCPpifTuoKw('tQGfqtFtmoAhaKmOsraNrxbuBoAkMQnXYlKIQKNdIqgTgSiXQTRvcHaXSA9IHtb')EnableiqCPpifTuoKw('QHvEhnHwrxGtTQUVGuTvqOHPOHSVixMjuJSBGQuREfrXBqMgPRelBiQXSA9IHRydWUsIFs=')HoldTimeiqCPpifTuoKw('tdALBSsJtYVUaYmGEdrjLNPUSUknxVKXOAjBUiTtkdUnYbXXhnObHQTXSA9IDB9LA0KICAgICAgICAgICAgICAgIFs=')CiqCPpifTuoKw('zVgtAmsjJrmgCblHgzSPyEqgcVbIbLDaxqaBZdhvTXcFUebbsGbskaDXSA9IHtb')EnableiqCPpifTuoKw('ouSJOikSnYhPTKfCjxyqUopxiHEHmdZfgSYrkgImcCfBPTRsfTSbrIgXSA9IHRydWUsIFs=')HoldTimeiqCPpifTuoKw('iRGVHCoYezyvHaiwlcednvEtECfRDcrjouNioLfPYubzCdyZauZtYZzXSA9IDB9LA0KICAgICAgICAgICAgICAgIFs=')ViqCPpifTuoKw('kFkbPldcCPikvncNRQDnNiSgPvBpHhpMTSgnsTtZfqYuVVMhiFbIwIBXSA9IHtb')EnableiqCPpifTuoKw('uPYOMUTXAtDDQTjTszNixPnBOHYPrFWVWQRVOVKTOvgEdKbQrwcPNsfXSA9IHRydWUsIFs=')HoldTimeiqCPpifTuoKw('SXGCxFHyadMebeEQYeHZqDNfmVLiZpHfswADLDLwmHjjqYnDApWTPisXSA9IDB9LA0KICAgICAgICAgICAgICAgIFs=')FiqCPpifTuoKw('GtMbVVHwNcMldjMaBpqIYmFhOJxXvOYQKpeolOtzprGzXlCqyEFqiIRXSA9IHtb')EnableiqCPpifTuoKw('WZuStQtcuhhwAtovAjsujIjLXSSzeXyxBQEwEHsTPNQjrsjmfORxOhHXSA9IGZhbHNlLCBb')HoldTimeiqCPpifTuoKw('iKBgtYmybfuDynwBuaZyFzdLXXhOiHRXpBqGrPUkOdsPExGpBdWFBaGXSA9IDB9DQogICAgICAgICAgICB9DQogICAgICAgIH0sDQogICAgICAgIC0tLy8gQ29weSBOZXh0DQogICAgICAgIFs=')SwordiqCPpifTuoKw('xMsIpFhjIjtpNAKYSAcLYsIkVBvFZNMfMVwAgYSrzIfuVyLsXPHVappXSA9IHsNCiAgICAgICAgICAgIFs=')EnableiqCPpifTuoKw('rWFMOnFOkqHVoDCUsJFwOUPYSQHYTEqcOiFKTvTmElJPfvnNEGXpPdFXSA9IHRydWUsDQogICAgICAgICAgICBb')DelayiqCPpifTuoKw('reTZPWGtqPTAcnCnKeRTwSLwvwJwschpKiDgpjSpvLrjLYpoSzhVzLTXSA9IDEuNSwNCiAgICAgICAgICAgIFs=')SkillsiqCPpifTuoKw('MrxlDWYNFrKTJfywThQpJDiiAmkzGdQYlUNjjodbmkalxBFQyISwcgBXSA9IHsNCiAgICAgICAgICAgICAgICBb')ZiqCPpifTuoKw('ehHnIwUFnJBYPpSmfOWXyWSvVIWjLfMonuXgGiUvqJVTtUWxCKkedJRXSA9IHtb')EnableiqCPpifTuoKw('FlhWMhGVDLwIQjqPkfyHayPKejsAJHPDYgRnXleJyClIQUCyzojeUFIXSA9IHRydWUsIFs=')HoldTimeiqCPpifTuoKw('GfVgimABXypcdvCzwSdIqkrHomcOJeCVHaZqLEIPlPwBMLfnKINhleXXSA9IDF9LA0KICAgICAgICAgICAgICAgIFs=')XiqCPpifTuoKw('BkYQcTYNkMkGUOJwuFZwspVsnnOJMgokYRGcrYCjRckIkSplYrkDNZLXSA9IHtb')EnableiqCPpifTuoKw('CwBDADzgykWbXrCTHFeShqjSRKnpAXRfwlXSRoXzayjHiliIusrAUNvXSA9IHRydWUsIFs=')HoldTimeiqCPpifTuoKw('XdBProByiWTysGDPtsXIQzgVCtlhityFpyZVRwrMzdQBvhjoOPphsEHXSA9IDB9DQogICAgICAgICAgICB9IA0KICAgICAgICB9LCAgICAgIA0KICAgICAgICBb')GuniqCPpifTuoKw('xhEiBKxLeWoeMkRyxIYTjgoNJLnkHQjHHzcfyxgZNAsCxlyxycvTsiHXSA9IHsNCiAgICAgICAgICAgIFs=')EnableiqCPpifTuoKw('SVszoewBgEjVxKrxbzBZAsFHGlyvriUKBCfyNQqXpVrpYiJtlzMOJZSXSA9IHRydWUsDQogICAgICAgICAgICBb')DelayiqCPpifTuoKw('YtohnbRKheAxAsHmNSHNdZanCRdbitJNUsdwJhKrlydUGiNdDnUfWOuXSA9IDEuMiwNCiAgICAgICAgICAgIFs=')SkillsiqCPpifTuoKw('VsQHHsPojCQXtucjGAjXKelNczxJZnOmyNTbNdwSpamurzQBUXClvOBXSA9IHsNCiAgICAgICAgICAgICAgICBb')ZiqCPpifTuoKw('tUUwYHeBPzRkfZgoKbINjOSFDFrPxJLvBRGrsAENfiuvFkTqwxRKymhXSA9IHtb')EnableiqCPpifTuoKw('PPnoIdSmaaryMNFNELJWgcQOqVdkpsxbGPNhluQCAuxejSdvEUrFwZVXSA9IHRydWUsIFs=')HoldTimeiqCPpifTuoKw('FwJedZFhtMCJJplZZCIqLnkYwStGSSFHtSEtyWVLGYCkKmMQoFmoQhtXSA9IDB9LA0KICAgICAgICAgICAgICAgIFs=')XiqCPpifTuoKw('dkrCmdnYZnXUsilbxQFcRFHQxwdVqYzTkDoTEAblMlfBFZqsXgVEPgtXSA9IHtb')EnableiqCPpifTuoKw('IGlRJSlKpJhJmFIzNNhbbYeAxRMaqNHDpzQAkbfJlmjtxOnBAMTMTRqXSA9IHRydWUsIFs=')HoldTimeiqCPpifTuoKw('SXqVGAUQXDhMbhPXaJbeSgJpCZKKmXErFGKVeZIqtgumiVuggsdRBrCXSA9IDB9DQogICAgICAgICAgICB9IA0KICAgICAgICB9DQogICAgfQ0KfQ0KcmVwZWF0IHdhaXQoKSB1bnRpbCBnYW1lOklzTG9hZGVkKCkNCmxvYWRzdHJpbmcoZ2FtZTpIdHRwR2V0KA==')https://raw.githubusercontent.com/Minhtriettt/Hunt/main/AutoBountyV2.luaiqCPpifTuoKw('EpysznrmngokHoTFdRzuhSqbuqkFSUhRgORTzykJCmhGHiLhsUTRmBAKSkoKQ0KZW5kKQ0KDQoNCmxvY2FsIFRhYiA9IFdpbmRvdzpOZXdUYWIo')MM2iqCPpifTuoKw('PiNzFaCHDOjRFIkQKtBheUInByvOTyRUTFOGKUgbJqpFXFcnzexztRsKQ0KbG9jYWwgU2VjdGlvbiA9IFRhYjpOZXdTZWN0aW9uKA==')The Script Was Created By Slender!!!iqCPpifTuoKw('HPYQWBYXxfiGuTzCpJLSVvCZpmRmsQOMsoZmQQngOFtYnLSZHBpFmzFKQ0KU2VjdGlvbjpOZXdCdXR0b24o')MM2iqCPpifTuoKw('VcuEPYsUaspUBfdbVSIzXWRQItmNDWSaEDzfSKfPpQbgFVStZoyeCOULCA=')Best MM2 ScriptiqCPpifTuoKw('FLXzerRjOcWKlWoPAEBNyiiybtEgmKQdnuOuVxywsqTvtYDJOFUDbKULCBmdW5jdGlvbigpDQogICAgcHJpbnQo')ClickediqCPpifTuoKw('ZFnXMzKvApfQioeXivOufICohZdBqxCsygLRVQryeXMOoMrxwLNFoZHKWxvYWRzdHJpbmcoZ2FtZTpIdHRwR2V0KA==')https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubMurderMystery2iqCPpifTuoKw('AmwAEkxwOpbYBtRktKdCOLjeLaPvvLVOWnmUicfRCkExwdkHGeUxZRIKSApKCApDQplbmQpDQoNCg0KbG9jYWwgVGFiID0gV2luZG93Ok5ld1RhYig=')Murderers Vs SheriffsiqCPpifTuoKw('qdRbuoItgaokDhuTYPDxsXhkYyQVuibgECaoJHmjgoXhRxNTeQdOemXKQ0KbG9jYWwgU2VjdGlvbiA9IFRhYjpOZXdTZWN0aW9uKA==')The Script Was Created By Slender!!!iqCPpifTuoKw('iIeUlQzpcdFyKEznaZAvdIRIYtwNTWwjXwrpkRMoshTvKziBFefOHMJKQ0KU2VjdGlvbjpOZXdCdXR0b24o')Murderers Vs SheriffsiqCPpifTuoKw('uhwtOyPURRUasqfvKkMfovLwOpqqoqTrdPmpFbUzkQwYDEIbFBWUDFkLCA=')Best Murderers Vs Sheriffs ScriptiqCPpifTuoKw('azBGBCTbfgjNQQgQbSkLzDpMxfKjNBgXKFKcKPIyuVpXgblfoxUzQJhLCBmdW5jdGlvbigpDQogICAgcHJpbnQo')ClickediqCPpifTuoKw('HopmQzPJFqtqHFhdWWyycdAwVyPhnkXLsWswjudveViKDNLQFdvmCVXKWxvYWRzdHJpbmcoZ2FtZTpIdHRwR2V0KA==')https://raw.githubusercontent.com/Bebo-Mods/BeboScripts/main/MurderersVsSheriffs.luaiqCPpifTuoKw('FaTcFYKRqxJlUcddCPoWJBbZxjZAHQuxpDFRtLiOJzwRYUuzVSxfVEbKSkoKQ0KZW5kKQ0KDQoNCmxvY2FsIFRhYiA9IFdpbmRvdzpOZXdUYWIo')T-TiaTnsiqCPpifTuoKw('XDHtxKAKTjEhHysfNtdrdwFeeBhNUNKqrPozcrHQHgOCmMcQpwtSXLgKQ0KbG9jYWwgU2VjdGlvbiA9IFRhYjpOZXdTZWN0aW9uKA==')The Script Was Created By Slender!!!iqCPpifTuoKw('SSXmMGDLleTxVLtxhIZtnDhqyXiJYHlZaxAdtrGSsucPgAqFUvOOBjEKQ0KU2VjdGlvbjpOZXdCdXR0b24o')T-TiaTnsiqCPpifTuoKw('DmKuRKrtcdGTwOteNGOwIVIXLfkLiDTdfatZlvVxBbNaImBLsCaUYYLLCA=')Best T-TiaTns ScriptiqCPpifTuoKw('XnHXSiyvXBxrYhCYdOMJLTcSrRaqsIbxeDCxKJTQciUPJHlneJNkOygLCBmdW5jdGlvbigpDQogICAgcHJpbnQo')ClickediqCPpifTuoKw('GoZaanbruzZQEvuEJumjZHljiEIEjpjVJYLchOwNDsdzoMzSZupVRdcKWxvYWRzdHJpbmcoZ2FtZTpIdHRwR2V0KA==')https://scriptblox.com/raw/Teen-Titans-Battlegrounds-OP-TEEN-TIATNS-SCRIPT-6522iqCPpifTuoKw('kqppoYiQfzDFCxrcphEUunuQjbPNCQwtGGcYbGDEcmGbBKdNhbcYbhZKSkoKQ0KZW5kKQ0KDQoNCmxvY2FsIFRhYiA9IFdpbmRvdzpOZXdUYWIo')Plz DonateiqCPpifTuoKw('IjQoDDUNfpQOvNutQCaslXhJpShiJrGrLoamelwPOtBOTWQUzsCdxuMKQ0KbG9jYWwgU2VjdGlvbiA9IFRhYjpOZXdTZWN0aW9uKA==')The Script Was Created By Slender!!!iqCPpifTuoKw('JbSxOasKeICaLKMqFfPNOBeHriDwwQHACGazYqrSutvFsGILjWqkxGQKQ0KU2VjdGlvbjpOZXdCdXR0b24o')Plz DonateiqCPpifTuoKw('woCHyipwioSClIOLJkZBclcrQgmRZIZuxCoAOiqWmuduEaEjPOmqqzPLCA=')Best Plz Donate ScriptiqCPpifTuoKw('qnTdpUCczyAHRjdvlsuqNyuwlpDGBKDTZyGJEYMcBOdTfDaMeyuIsvPLCBmdW5jdGlvbigpDQogICAgcHJpbnQo')ClickediqCPpifTuoKw('GUdMLXIHxBHecLMLSKfyTbEsRNszKPTkQhYLWVhqkTCumhOyZrkAtohKWxvYWRzdHJpbmcoZ2FtZTpIdHRwR2V0KA==')https://raw.githubusercontent.com/CF-Trail/tzechco-PlsDonateAutofarmBackup/main/autofarmiqCPpifTuoKw('rfVrIFstcFOqUaIFSsqxxIhKMisRdazaSXlSuNkjccgpqwqVaXFRxGFKSkoKQ0KZW5kKQ0KDQoNCmxvY2FsIFRhYiA9IFdpbmRvdzpOZXdUYWIo')PiggyiqCPpifTuoKw('QogwucYRuJYkmbzQxQsLqyFJQydpZESAHhkPuTQhfKWJWIwBlhsBVSKKQ0KbG9jYWwgU2VjdGlvbiA9IFRhYjpOZXdTZWN0aW9uKA==')The Script Was Created By Slender!!!iqCPpifTuoKw('KBYQjidOwSRBKmSHxYKcnnvxKvEcewZyUfSUEtbrGHIrTpGfJezryhNKQ0KU2VjdGlvbjpOZXdCdXR0b24o')PiggyiqCPpifTuoKw('EdlLnIXLBHJSYNEvOkISxaZtKGvNlCqsqlQsMPGWDemZPSlSNeIhbRmLCA=')Best Piggy ScriptiqCPpifTuoKw('TeoMLCEdfuYlKPiPXciQPChoiNpRePZwCwJXAKMuMvlvJPGsIfrOByWLCBmdW5jdGlvbigpDQogICAgcHJpbnQo')ClickediqCPpifTuoKw('NlfqSJeRmBsSEdCxMvTmjqVdGKZULJGcpYaAeisNYidgtZArSWJQURIKWxvYWRzdHJpbmcoZ2FtZTpIdHRwR2V0KA==')https://scriptblox.com/raw/Piggy-SCRIPT-10828iqCPpifTuoKw('EFXpWzbitgqAtTtTSuUuEtvHUKgtoVzjWBalLaHSdKOqLmwhLzTXWmjKSkoKQ0KZW5kKSANCg0KDQpsb2NhbCBUYWIgPSBXaW5kb3c6TmV3VGFiKA==')A Dusty TripiqCPpifTuoKw('HcejHeuteuyrFKmLdmrZufoAytELaEnJoeWYjqMBafejHXBCvUFkmFXKQ0KbG9jYWwgU2VjdGlvbiA9IFRhYjpOZXdTZWN0aW9uKA==')The Script Was Created By Slender!!!iqCPpifTuoKw('MrJCESfDvYGLyluFIUnayHtXowInGaOPsGpSuHgfIUgaMGWuQeTybDWKQ0KU2VjdGlvbjpOZXdCdXR0b24o')Connect HubiqCPpifTuoKw('XhgVyyxJtXLrhVwiyPYDqWaitfjmOKpOblsLHxHtbjfffRRLbQRPCuvLCA=')Best A Dusty Trip ScriptiqCPpifTuoKw('zCAbbDspvTnQzQupdPoaCDcOOeazqCUMJUOEgPPzRsKChKbVxSPctGLLCBmdW5jdGlvbigpDQogICAgcHJpbnQo')ClickediqCPpifTuoKw('tjlgYTxMjMBtQJfqkXDipYtpfqpackHFiByrcrphcyFFPycNGwNHdrlKWxvYWRzdHJpbmcoZ2FtZTpIdHRwR2V0KA==')https://raw.githubusercontent.com/artemy133563/Utilities/main/ADustyTripiqCPpifTuoKw('fiTKUhFlVAIfmFGrcgAjadROHjvwgzIHzgHUJaCwFFpYlwyCrMeOZWqLHRydWUpKSgpDQplbmQpIA0KDQoNClNlY3Rpb246TmV3QnV0dG9uKA==')LightuxiqCPpifTuoKw('bnInXIcyTtIZzqwIMmkLlaHLSZxGOjpcNLjigJAtkQTJmZEketHJOjwLCA=')Best A Dusty Trip ScriptiqCPpifTuoKw('UluhlVgNjaEkelNPtLNwukRaVptdTeGmZguQDHpJONPZZxCxJrXRDwfLCBmdW5jdGlvbigpDQogICAgcHJpbnQo')ClickediqCPpifTuoKw('aSSAghYlLNHbHwoQbOMdrQPvJQBcXqOKjhRSCkZPHYhTOdgtYmKrgTiKWxvYWRzdHJpbmcoZ2FtZTpIdHRwR2V0KCg=')https://raw.githubusercontent.com/cool83birdcarfly02six/Lightux/main/README.mdiqCPpifTuoKw('pJuxnfwyAjFePZiEwUTzJKFmivnxXJfcOPiJbrLOBOgBFjAorHtbnHlKSx0cnVlKSkoKQ0KZW5kKSANCg0KU2VjdGlvbjpOZXdCdXR0b24o')Dupe ItemsiqCPpifTuoKw('PvkZAUnLOlQcTDzVtvpXcSNocqckeyLeGAdyRjJMLNWRUhznjVFEzgKLCA=')Best A Dusty Trip ScriptiqCPpifTuoKw('BJXKuNuqqAubmgccEiwHicrORUzzGuyxFERxdmXiFhKkeILqynLmfYGLCBmdW5jdGlvbigpDQogICAgcHJpbnQo')ClickediqCPpifTuoKw('xPEkgmRTWQIvyuaOWyWNypKdDnVUivwyJlTzGDIAJQLqKRGeTNjYFeWKWxvYWRzdHJpbmcoZ2FtZTpIdHRwR2V0KA==')https://raw.githubusercontent.com/ThacG/EruditeHubV2/main/eruditehubdupeV2sourceiqCPpifTuoKw('ThSXcJTZYaKqOyzXdoAGpVjPUXtkxMLxmuASmnVxOzIypqmMUEqJeBKKSkoKQ0KZW5kKSANCg0KDQpsb2NhbCBUYWIgPSBXaW5kb3c6TmV3VGFiKA==')AdminsiqCPpifTuoKw('fShoctVaqfJVSiDPwIgLafaGIYeZryXcKZxfmiMFiJLrDIVgfSFgtUJKQ0KbG9jYWwgU2VjdGlvbiA9IFRhYjpOZXdTZWN0aW9uKA==')The Script Was Created By Slender!!!iqCPpifTuoKw('XHQYozOwyegmxnDxQGWmsmkgqIejmtTptrWHSOolGDURQjqaohuLCLuKQ0KIFNlY3Rpb246TmV3QnV0dG9uKA==')Infinite Yield AdminiqCPpifTuoKw('HyHlWJDjyQWdJAtrkcyFnrnTipNOvPGxaNSiBcLcsGGuCtUfGnOguFKLCA=')Admin For All GamesiqCPpifTuoKw('tlbPiRSKmMcyWbtaJBTRpvZQyVSzGXdgvaRsoknGwSDgvBzWBqymhMhLCBmdW5jdGlvbigpDQogICAgcHJpbnQo')ClickediqCPpifTuoKw('YSswdrzzZGpRXsJDxRbKjQEECRlNdcMzdLmPCJNCPSbuvtlmELiPOnjKWxvYWRzdHJpbmcoZ2FtZTpIdHRwR2V0KA==')https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/sourceiqCPpifTuoKw('sCBOEWFNwSjHILaQUMOwoGDOLmNMdMOgMNoHrRJKgNiKMPkQQTsjekyKSkoKQ0KZW5kKSBTZWN0aW9uOk5ld0J1dHRvbig=')Namless AdminiqCPpifTuoKw('srRxOVwlecrGDGAnMphRNJpkOadaRDLlcWbgcomIELySrLwOJjrYdayLCA=')Admin For All GamesiqCPpifTuoKw('SCppTHRAAkgklZrrvCoDpIggWGdjHUoDaEPyDAMvysbNNbkGyRNKiqxLCBmdW5jdGlvbigpDQogICAgcHJpbnQo')ClickediqCPpifTuoKw('INQJcubRFlpXDjWRNbfTynHjugzhifHFvNgyEoMXEQdeTqwHixDrGWpKWxvYWRzdHJpbmcoZ2FtZTpIdHRwR2V0KA==')https://scriptblox.com/raw/Universal-Script-Nameless-Admin-FE-11243iqCPpifTuoKw('udVnvhZPGWrxHndxkVIusJWyLTRiVkPlwfUTIFBmOqetMvhRjmjYNAbKSkoKQ0KZW5kKVNlY3Rpb246TmV3QnV0dG9uKA==')Fates AdminiqCPpifTuoKw('rZgjBEITUcrVKIvatXUKUaableiOpWVLKkseEQYffxNUXQCLoncnLQHLCA=')Admin For All GamesiqCPpifTuoKw('yVIxPKqTqMtDkGjINsAoiSPKnIxrKoRyzpCiHMPBmmpjnAMXhnNwZStLCBmdW5jdGlvbigpDQogICAgcHJpbnQo')ClickediqCPpifTuoKw('kxNGDOXdDwylpZYlHrapuPcJZKMCYxfYVKuGMCTDLOfNVKhPtPishDdKWxvYWRzdHJpbmcoZ2FtZTpIdHRwR2V0KA==')https://raw.githubusercontent.com/fatesc/fates-admin/main/main.luaiqCPpifTuoKw('VRgnpzPhGbxFEGwxUVSRpxhxcnBCzRuVamfhVAArIJKXXZXlsWABsrTKSkoKQ0KZW5kKSBTZWN0aW9uOk5ld0J1dHRvbig=')LegiqCPpifTuoKw('YXzqtKWATAKhqPVBmziYhENPDkAxSqIdRONaZCwRrXTVmoUHBcVEajJcyBBZG1pbg=='), iqCPpifTuoKw('HyqZjwwcsboMFfOjqbmVeoPPGqgWKOZYnzdOZtdUsqRbTSwUZqQaFlbQWRtaW4gRm9yIEFsbCBHYW1lcw=='), function()
+    print(iqCPpifTuoKw('aTfaZFPuhyakWOgYRxCQHYUyVgmXgoZKiRtgfNvgjxAxqCzVNdgwPRsQ2xpY2tlZA=='))loadstring(game:HttpGet(iqCPpifTuoKw('lGLorQphmsFJbQUZDiCVZXxFlkFYCtcFSTWqBhLidTYDPOfBKSJFqNOaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2xlZzEzMzcvbGVnYWRtdjIvbWFpbi9sZWdhZG1pbnYyLmx1YQ==')))()
+end) Section:NewButton(iqCPpifTuoKw('obtfJDNMnGwPAGyxyOxPqtAbPxIWUuEKEYaNRLlEtugeUyasxfOKzRPTG9ncyBBZG1pbg=='), iqCPpifTuoKw('feXMoKbeQuyFHrVhdHQUWFyxNHvCMkAdyCQNiNvxShtEAiJQqlJmMgTQWRtaW4gRm9yIEFsbCBHYW1lcw=='), function()
+    print(iqCPpifTuoKw('kBdKSdSgAlyKxrTNJeZXfxkwkPSYxFtRvHLwhXyhVqilUIGAlotvPafQ2xpY2tlZA=='))loadstring(game:HttpGet(iqCPpifTuoKw('SSGGjeUAzwRqTyHMDTEbqbUWroomglrarTaJfqRWotbodDHHKWMgeSSaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0Jsb29keUJ1cm5zL0hleC9tYWluL0l2JTIwQWRtaW4lMjB2My5sdWE=')))()
 end)
 
-
-local Tab = Window:NewTab("MM2")
-local Section = Tab:NewSection("The Script Was Created By Slender!!!")
-Section:NewButton("MM2", "Best MM2 Script", function()
-    print("Clicked")loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubMurderMystery2") )( )
-end)
-
-
-local Tab = Window:NewTab("Murderers Vs Sheriffs")
-local Section = Tab:NewSection("The Script Was Created By Slender!!!")
-Section:NewButton("Murderers Vs Sheriffs", "Best Murderers Vs Sheriffs Script", function()
-    print("Clicked")loadstring(game:HttpGet("https://raw.githubusercontent.com/Bebo-Mods/BeboScripts/main/MurderersVsSheriffs.lua"))()
-end)
-
-
-local Tab = Window:NewTab("T-TiaTns")
-local Section = Tab:NewSection("The Script Was Created By Slender!!!")
-Section:NewButton("T-TiaTns", "Best T-TiaTns Script", function()
-    print("Clicked")loadstring(game:HttpGet("https://scriptblox.com/raw/Teen-Titans-Battlegrounds-OP-TEEN-TIATNS-SCRIPT-6522"))()
-end)
-
-
-local Tab = Window:NewTab("Plz Donate")
-local Section = Tab:NewSection("The Script Was Created By Slender!!!")
-Section:NewButton("Plz Donate", "Best Plz Donate Script", function()
-    print("Clicked")loadstring(game:HttpGet("https://raw.githubusercontent.com/CF-Trail/tzechco-PlsDonateAutofarmBackup/main/autofarm"))()
-end)
-
-
-local Tab = Window:NewTab("Piggy")
-local Section = Tab:NewSection("The Script Was Created By Slender!!!")
-Section:NewButton("Piggy", "Best Piggy Script", function()
-    print("Clicked")loadstring(game:HttpGet("https://scriptblox.com/raw/Piggy-SCRIPT-10828"))()
-end) 
-
-
-local Tab = Window:NewTab("A Dusty Trip")
-local Section = Tab:NewSection("The Script Was Created By Slender!!!")
-Section:NewButton("Connect Hub", "Best A Dusty Trip Script", function()
-    print("Clicked")loadstring(game:HttpGet("https://raw.githubusercontent.com/artemy133563/Utilities/main/ADustyTrip",true))()
-end) 
-
-
-Section:NewButton("Lightux", "Best A Dusty Trip Script", function()
-    print("Clicked")loadstring(game:HttpGet(('https://raw.githubusercontent.com/cool83birdcarfly02six/Lightux/main/README.md'),true))()
-end) 
-
-Section:NewButton("Dupe Items", "Best A Dusty Trip Script", function()
-    print("Clicked")loadstring(game:HttpGet("https://raw.githubusercontent.com/ThacG/EruditeHubV2/main/eruditehubdupeV2source"))()
-end) 
-
-
-local Tab = Window:NewTab("Admins")
-local Section = Tab:NewSection("The Script Was Created By Slender!!!")
- Section:NewButton("Infinite Yield Admin", "Admin For All Games", function()
-    print("Clicked")loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
-end) Section:NewButton("Namless Admin", "Admin For All Games", function()
-    print("Clicked")loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Nameless-Admin-FE-11243"))()
-end)Section:NewButton("Fates Admin", "Admin For All Games", function()
-    print("Clicked")loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))()
-end) Section:NewButton("Leg's Admin", "Admin For All Games", function()
-    print("Clicked")loadstring(game:HttpGet('https://raw.githubusercontent.com/leg1337/legadmv2/main/legadminv2.lua'))()
-end) Section:NewButton("Logs Admin", "Admin For All Games", function()
-    print("Clicked")loadstring(game:HttpGet('https://raw.githubusercontent.com/BloodyBurns/Hex/main/Iv%20Admin%20v3.lua'))()
-end)
-
-local Tab = Window:NewTab("Scripts For All Games")
-local Section = Tab:NewSection("The Script Was Created By Slender!!!")
- Section:NewButton("Fling GUI", "Script For All Games", function()
-    print("Clicked")loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Touch-fling-10457"))()
-end) Section:NewButton("Dance", "Script For All Games", function()
-    print("Clicked")loadstring(game:HttpGet("https://pastebin.com/raw/eCpipCTH"))()
-end) Section:NewButton("Victim Menu", "Script For All Games", function()
-    print("Clicked")loadstring(game:HttpGet("https://raw.githubusercontent.com/GS21Official/DH-VictimMenu-Script/main/Dh%20VictimMenu%3A%20Script"))()
-end) Section:NewButton("Chat Spy", "Script For All Games", function()
-    print("Clicked")loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Chat-spy-3000"))()
-end) Section:NewButton("Chat Admin", "Script For All Games", function()
-    print("Clicked")loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Roblox-Chat-Admin-Script-9753"))()
-end) Section:NewButton("Invisible", "Script For All Games", function()
-    print("Clicked")loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Invisible%20Gui'))()
-end) Section:NewButton("Chat Admin", "Script For All Games", function()
-    print("Clicked")loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Kidnap%20again"))()
-end) Section:NewButton("Fly", "Script For All Games", function()
-    print("Clicked")loadstring(game:HttpGet('https://pastebin.com/raw/U8z6iZbT'))()
-end) Section:NewButton("VFly", "Script For All Games", function()
-    print("Clicked")loadstring(game:HttpGet("https://pastebin.com/raw/MHE1cbWF"))()
-end) Section:NewButton("Keyboard", "Script For All Games", function()
+local Tab = Window:NewTab(iqCPpifTuoKw('inFJDMJKQOwgYSejkgNWMHZfDLMzNLbxbSzcyErbzpqRneaxYRcWwsWU2NyaXB0cyBGb3IgQWxsIEdhbWVz'))
+local Section = Tab:NewSection(iqCPpifTuoKw('UmWjKCqEdBPzWSellWDDOZjVxsAxPGSlxSmvcdrzMlFkbQhqSEBJNMSVGhlIFNjcmlwdCBXYXMgQ3JlYXRlZCBCeSBTbGVuZGVyISEh'))
+ Section:NewButton(iqCPpifTuoKw('DVwGENEVckKOsYowtROWYXbeAteLfAWiuQWosjaSBpbEgsjVaJHHVhoRmxpbmcgR1VJ'), iqCPpifTuoKw('ZLbSSqQGMelSstJZQZzpBpeobuElQPROqZeoJyplMOAacMdlRrMiZoaU2NyaXB0IEZvciBBbGwgR2FtZXM='), function()
+    print(iqCPpifTuoKw('AxLhExjTPiyANkTMbIHOdMgKgWnMWkHtFruNhkWFUvFRCfoVZALuhwQQ2xpY2tlZA=='))loadstring(game:HttpGet(iqCPpifTuoKw('mJOCRYQoefbVbzfTsKNiEtGcWPsCFCSxrNfXJZFKZTnTTCQOsLDLiRlaHR0cHM6Ly9zY3JpcHRibG94LmNvbS9yYXcvVW5pdmVyc2FsLVNjcmlwdC1Ub3VjaC1mbGluZy0xMDQ1Nw==')))()
+end) Section:NewButton(iqCPpifTuoKw('TwespdtimbIrPUgltLGsAXChyhywEbKUxKHIuZtmGXVZvjlKDqObSQvRGFuY2U='), iqCPpifTuoKw('nrZuPMrfDlswwVUgfMmZWQeNtTKpoSWcBGstZkcvrRrtGVBIXvKjahcU2NyaXB0IEZvciBBbGwgR2FtZXM='), function()
+    print(iqCPpifTuoKw('CvhCWFGAObnYRZOvuAOXtCDlXuxERKPGmYEuOxXaTBnDcCofcIJtwCXQ2xpY2tlZA=='))loadstring(game:HttpGet(iqCPpifTuoKw('GoMyWHETLYYxjSxwfxCZhbCViuSZtjkEmPOGLPkqxsNkAYqlULcpiXMaHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L2VDcGlwQ1RI')))()
+end) Section:NewButton(iqCPpifTuoKw('KzxIoRAOIaBeZyAVBEAuFqLTjlNuupCCVipVhFWEplwOtJYORhboRTmVmljdGltIE1lbnU='), iqCPpifTuoKw('GPZYdksxFxWpadZgeeLzuPQcERBhugEqHLBBYigHkVklqEQjAIdBlYEU2NyaXB0IEZvciBBbGwgR2FtZXM='), function()
+    print(iqCPpifTuoKw('VIXZqNhlvemCtZhRDuVPBwxgVzELDgQdcJDClWJFOsofsBHQzeHydbsQ2xpY2tlZA=='))loadstring(game:HttpGet(iqCPpifTuoKw('xCZHmgZbhrwcOMdCesPTzInOPZgxRUudSBiaGAQnLFEPiMGFkZxWCxYaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0dTMjFPZmZpY2lhbC9ESC1WaWN0aW1NZW51LVNjcmlwdC9tYWluL0RoJTIwVmljdGltTWVudSUzQSUyMFNjcmlwdA==')))()
+end) Section:NewButton(iqCPpifTuoKw('qwnSYKKgjjObIrBixmoHqDklKpYOQifLFkKGYPeBQanQxAcEvyOPREFQ2hhdCBTcHk='), iqCPpifTuoKw('BcHTZCjZxDEHQtMPVyeMFNDqRHwMOimoLjomZIphAGOvdifLamYAsvVU2NyaXB0IEZvciBBbGwgR2FtZXM='), function()
+    print(iqCPpifTuoKw('yYZgeZYJbKucxmIrhOQIxmcJAWlbiQWWXRhwEMxlgsMpHakXyyRgbZZQ2xpY2tlZA=='))loadstring(game:HttpGet(iqCPpifTuoKw('mIdxpuSdsvSxEhJLhfRgPivQcyoWgltaLAOAzWguceyflxqJdhZddOfaHR0cHM6Ly9zY3JpcHRibG94LmNvbS9yYXcvVW5pdmVyc2FsLVNjcmlwdC1DaGF0LXNweS0zMDAw')))()
+end) Section:NewButton(iqCPpifTuoKw('nwFKBmcItoofljjqAVSAVLHCsRYJTaWNVOjLSjlGZtvDLpfeliaCBDRQ2hhdCBBZG1pbg=='), iqCPpifTuoKw('FcSeZfNfINiIgRDujxsTGjqoMNRLZLmsUqLjdIrxcFUMevKCnfJZTRTU2NyaXB0IEZvciBBbGwgR2FtZXM='), function()
+    print(iqCPpifTuoKw('iIOzRZGsfRMtGverDlgFpDQoIpIbJTMGKcpCBlBlzXToWThaeKHXRFxQ2xpY2tlZA=='))loadstring(game:HttpGet(iqCPpifTuoKw('GRGNbDtZonZmHDsJXaQPFfmWuENmARRBIxMumoEpfbrDTwgAbQqnpEVaHR0cHM6Ly9zY3JpcHRibG94LmNvbS9yYXcvVW5pdmVyc2FsLVNjcmlwdC1Sb2Jsb3gtQ2hhdC1BZG1pbi1TY3JpcHQtOTc1Mw==')))()
+end) Section:NewButton(iqCPpifTuoKw('HRvHYhvPuKjfKGqmxwQoYxfFisccgFgLqDvULHncTKqjqoSbFHMIYDGSW52aXNpYmxl'), iqCPpifTuoKw('NXNuljvzCxAGmKNRpaRaQMDEuXZIXdHRcEUoUCKnBUdknMitQPecAaPU2NyaXB0IEZvciBBbGwgR2FtZXM='), function()
+    print(iqCPpifTuoKw('JsXyStUWRnDCWIsykLejOEpDslGNwOztOlAFXBKaJXTyfEAHydtjRckQ2xpY2tlZA=='))loadstring(game:HttpGet(iqCPpifTuoKw('ijeADHCZJQoLqvbAafprXjbZINKuoMJQsRokBqjFNRQtqpskaoZXhnhaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0dob3N0UGxheWVyMzUyL1Rlc3Q0L21haW4vSW52aXNpYmxlJTIwR3Vp')))()
+end) Section:NewButton(iqCPpifTuoKw('BJspNNjfMaXvLIVhvOhbpwTxqHNbpTHePCoEJcWyVBUksPdOEcvwXYoQ2hhdCBBZG1pbg=='), iqCPpifTuoKw('ZlcCDuHHtVGgykAbTVILDiEKZGIesnRNPQfkQFgBZwsvWhtPFQpNjqPU2NyaXB0IEZvciBBbGwgR2FtZXM='), function()
+    print(iqCPpifTuoKw('wcwOSlGTxrkfjVKpiPoSrghQruLxyblRvbhxQIjVkpvrXXvvXbNmrfTQ2xpY2tlZA=='))loadstring(game:HttpGet(iqCPpifTuoKw('aowWdWZGbSXdwWtMZkSfpHhYBrIiuKvZRBOjFoXBhRCCNdOvfHDJwLIaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzBCZW4xL2ZlLi9tYWluL0tpZG5hcCUyMGFnYWlu')))()
+end) Section:NewButton(iqCPpifTuoKw('STOIlylTUPOgQFDjOwUywVIayqkaGSGGyepYtIXzORZjOAStpWkNNUxRmx5'), iqCPpifTuoKw('yoXFtaGNCetywplQzPfxRxyQLqWJfQCghJAsvJCQBGEyExtUZgcyOmSU2NyaXB0IEZvciBBbGwgR2FtZXM='), function()
+    print(iqCPpifTuoKw('AsgcyIqkzXRbVQHXGtNCaKzzBioJvuNMWDHUDwtJXrZVeTmXVgtahnOQ2xpY2tlZA=='))loadstring(game:HttpGet(iqCPpifTuoKw('nJeWlKMrlzWlLJUbeUKTTbcsthkCuhryACFAkhuKDHXhLIovaIkyvUGaHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L1U4ejZpWmJU')))()
+end) Section:NewButton(iqCPpifTuoKw('PDWSCWtjTGkESFLiTpIMxgtkOnISNtfXtWdXGYmhqsgZOYWIvlVVqvHVkZseQ=='), iqCPpifTuoKw('ByMHhGCIWonlNOGngWiCscUJZwADiPwfuVgrSPplBMrHrsVdJJMrwgZU2NyaXB0IEZvciBBbGwgR2FtZXM='), function()
+    print(iqCPpifTuoKw('ABCgfXVnljNRBdldjPrcMWMKZeoQkXIjPJMuZRbhgacyYoLoYKzZevYQ2xpY2tlZA=='))loadstring(game:HttpGet(iqCPpifTuoKw('YqfLmFiEChDOMLzhxfrpBMeXcRkDSwSXrKZKSNAFUqkiCZcweIUOcFpaHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L01IRTFjYldG')))()
+end) Section:NewButton(iqCPpifTuoKw('oqhcyFqWvjRhGUhrbVAxYbcuEetcSzRKqNbFDIMPICfuzUEezFOkMWAS2V5Ym9hcmQ='), iqCPpifTuoKw('bktZohKNOAixgguqBuhvVtYCNCkryNPwvjCHpmRhUyzlPxpmRjXDsyfU2NyaXB0IEZvciBBbGwgR2FtZXM='), function()
     
-print("Clicked")loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
-end) Section:NewButton("R15 To R6", "Script For All Games", function()
-    print("Clicked")loadstring(game:HttpGet(('https://raw.githubusercontent.com/Imagnir/r6_anims_for_r15/main/r6_anims.lua'),true))()
-end) Section:NewButton("Antiban", "Script For All Games", function()
-    print("Clicked")loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Antiban-ROBLOX-5892"))()
+print(iqCPpifTuoKw('MawMnJstgCIqtMzOwGtwdsZIEJqeQZHhRXIhONSTJQdErWvwyZZMTphQ2xpY2tlZA=='))loadstring(game:HttpGet(iqCPpifTuoKw('PnbQrEqhxtoAherkJMALlBFplFLoPGpGnefDgArzOinwbHylXLxMOgGaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Fkdnh6aXZoc2pqZGh4aHNpZGlmdnNoL21vYmtleWJvYXJkL21haW4vbWFpbi50eHQ='), true))()
+end) Section:NewButton(iqCPpifTuoKw('ldtvzIgcEMTiOgjQKdmPbTnfZNLYWzYQBaGdvGDKHaJZJfcVMnSjlLiUjE1IFRvIFI2'), iqCPpifTuoKw('syJONZCiMgPcLSCQxKwNAGskNJzanIChlBfizItITMnAcggOorDwaFaU2NyaXB0IEZvciBBbGwgR2FtZXM='), function()
+    print(iqCPpifTuoKw('VWcdiNbFxOGzniXTFYYPSfFOJRczgsMEhjOrkqMcnFtwKnpqNIDLwsnQ2xpY2tlZA=='))loadstring(game:HttpGet((iqCPpifTuoKw('BXSBoWkiUqiBFgyYJzFFUwNxtKlmJeTPbJsrzyvKwIUKMrqERSqHzqhaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0ltYWduaXIvcjZfYW5pbXNfZm9yX3IxNS9tYWluL3I2X2FuaW1zLmx1YQ==')),true))()
+end) Section:NewButton(iqCPpifTuoKw('GFlmhxoVtbZLFrVLXpWBLCdtVksDDCNQxCOInIgDrVFpzZfDdZfKtBiQW50aWJhbg=='), iqCPpifTuoKw('NnuXWEmHZKRHaOgRcOUsEmXEHCjFJMLSRIyvtbdbRJCqxsvkKgxgLnXU2NyaXB0IEZvciBBbGwgR2FtZXM='), function()
+    print(iqCPpifTuoKw('xXJFUNnFYhLFgpMmxyYdaVkiEmqgqRCIaohiJOSUSGWGnNiYBDZdvPfQ2xpY2tlZA=='))loadstring(game:HttpGet(iqCPpifTuoKw('HgvTsZSqjaFebAyaSVjsAUzCgoqkSCFjtBoZaShfzYpnqNEdrkPDpwEaHR0cHM6Ly9zY3JpcHRibG94LmNvbS9yYXcvVW5pdmVyc2FsLVNjcmlwdC1BbnRpYmFuLVJPQkxPWC01ODky')))()
 end) 
-Section:NewButton("AntiLag", "Script For All Games", function()
-    print("Clicked")local ToDisable = {
+Section:NewButton(iqCPpifTuoKw('tjqmQZSjcIhMihdhOvGykFputkmJXoVBoXwmfLtIMHdAQbxTSkuUtxbQW50aUxhZw=='), iqCPpifTuoKw('kxuPVQbTTBmIjFfAdRYBFuuClKeCLvASxvCWGuxOzBnknzYcaHgGmhVU2NyaXB0IEZvciBBbGwgR2FtZXM='), function()
+    print(iqCPpifTuoKw('sAIceRyJiZIQWhhMlSKcnACfqJVWaavMeaABOtwkpfUSnznniGKBUmsQ2xpY2tlZA=='))local ToDisable = {
 	Textures = true,
 	VisualEffects = true,
 	Parts = true,
@@ -254,49 +116,49 @@ local Stuff = {}
  
 for _, v in next, game:GetDescendants() do
 	if ToDisable.Parts then
-		if v:IsA("Part") or v:IsA("Union") or v:IsA("BasePart") then
+		if v:IsA(iqCPpifTuoKw('DrnweIernVVRBblBaSClfiTgyhHMcxnJgawfsmVKChxOtPEMlDegFgTUGFydA==')) or v:IsA(iqCPpifTuoKw('IXGeEHJsCBcrornhHbXZCrjDWAYdYjWEIpxJCClcydPDBFgEWedzJNfVW5pb24=')) or v:IsA(iqCPpifTuoKw('bYoDVQLtKVisMIlDecVXpfWTleIDNGnhQsHCWWRGyMhmTZYBPnXrSbUQmFzZVBhcnQ=')) then
 			v.Material = Enum.Material.SmoothPlastic
 			table.insert(Stuff, 1, v)
 		end
 	end
  
 	if ToDisable.Particles then
-		if v:IsA("ParticleEmitter") or v:IsA("Smoke") or v:IsA("Explosion") or v:IsA("Sparkles") or v:IsA("Fire") then
+		if v:IsA(iqCPpifTuoKw('LTBRvwYXYBxMkKgpPGLxfvuwVPtUuvqlNBANmfXxDSGIXHuxtSTpbuGUGFydGljbGVFbWl0dGVy')) or v:IsA(iqCPpifTuoKw('cnwePeBScslRrhTTEhiblhnTDFhInomfuIUtcaLCSFWzmjzYwnTemciU21va2U=')) or v:IsA(iqCPpifTuoKw('JLbGXtmwPYYcRyMifrEylJBLZmUzCqofsDGzRkhooluiZMKFaxNurtaRXhwbG9zaW9u')) or v:IsA(iqCPpifTuoKw('iqBuPCpXdHwLqjMhNRtlixSSxrwahkfVhoJrXhpGiXKHyKCLfWWqWpJU3BhcmtsZXM=')) or v:IsA(iqCPpifTuoKw('QjQPzkAgFhJSVuiYoudJqmxnFcuuEBxTIxtEudQqdbNgKgoZJZAXwfrRmlyZQ==')) then
 			v.Enabled = false
 			table.insert(Stuff, 1, v)
 		end
 	end
  
 	if ToDisable.VisualEffects then
-		if v:IsA("BloomEffect") or v:IsA("BlurEffect") or v:IsA("DepthOfFieldEffect") or v:IsA("SunRaysEffect") then
+		if v:IsA(iqCPpifTuoKw('UlejaanwuxOnguzhTWqesdpxmfHfkGznzzhhubwCXRFEXwOmyIfOOUHQmxvb21FZmZlY3Q=')) or v:IsA(iqCPpifTuoKw('hDwmbgclKOkvnEXRZvmMcpfUcfsLhNWJSkFyvrpaKdCYTPAIOyLwojMQmx1ckVmZmVjdA==')) or v:IsA(iqCPpifTuoKw('yNZrugHsAZWRGOlXKQSklVnXwhMFmsVqeLjwQpLoTTAKqwAbWtPKNnzRGVwdGhPZkZpZWxkRWZmZWN0')) or v:IsA(iqCPpifTuoKw('NprIWysecDIKhbYzAFolYENzWTZKpiKofaQPfQXBJKHduszDynDryITU3VuUmF5c0VmZmVjdA==')) then
 			v.Enabled = false
 			table.insert(Stuff, 1, v)
 		end
 	end
  
 	if ToDisable.Textures then
-		if v:IsA("Decal") or v:IsA("Texture") then
-			v.Texture = ""
+		if v:IsA(iqCPpifTuoKw('OolAsCLFmPWkhyyIEYHFucbkzamTSfAWyCpAhQmLLEAdfhjzJJdRWnNRGVjYWw=')) or v:IsA(iqCPpifTuoKw('vCQyzwtPMTVPJyDEEWrLdQYkPwROTYWXuXAnCSMShbnlUoGPomQjxgNVGV4dHVyZQ==')) then
+			v.Texture = iqCPpifTuoKw('SibKIYEnMgtsBEJehTvliGnXQIqYQBUOkoFViEmqsqSuucZEnjHmson')
 			table.insert(Stuff, 1, v)
 		end
 	end
  
 	if ToDisable.Sky then
-		if v:IsA("Sky") then
+		if v:IsA(iqCPpifTuoKw('hvRYsobKOYPqoAAwPokMRuqMIrjlBAHVTqyqbgmRMPCldmYDUCRZtTsU2t5')) then
 			v.Parent = nil
 			table.insert(Stuff, 1, v)
 		end
 	end
 end
  
-game:GetService("TestService"):Message("Effects Disabler Script : Successfully disabled "..#Stuff.." assets / effects. Settings :")
+game:GetService(iqCPpifTuoKw('dPQpfNiiNjxUJRMsCWwJkSJGJeVMUxYbGEsfbGlgaHPfnKKUFxbnieuVGVzdFNlcnZpY2U=')):Message(iqCPpifTuoKw('GIMqsRfMRWIyUcThtmpUmkxvTDQtvgRcfvqBblHheuYZUsbXKIQBKHTRWZmZWN0cyBEaXNhYmxlciBTY3JpcHQgOiBTdWNjZXNzZnVsbHkgZGlzYWJsZWQg')..#Stuff..iqCPpifTuoKw('IxNqchOScovXVEoYkCObpHGxCkMSMcNVHkNWsFzVUnHRAMbPzvXNjkCIGFzc2V0cyAvIGVmZmVjdHMuIFNldHRpbmdzIDo='))
  
 for i, v in next, ToDisable do
-	print(tostring(i)..": "..tostring(v))
+	print(tostring(i)..iqCPpifTuoKw('xrmDCYrebunJkRfNwUdjCwrTOJNobqgWHgtgwYxWdXAvsjmFAjCgUeuOiA=')..tostring(v))
 end
  
 if ToEnable.FullBright then
-    local Lighting = game:GetService("Lighting")
+    local Lighting = game:GetService(iqCPpifTuoKw('DqQiFYAWTLVmCddhNyEtIrLeGsNRXioNIXsNQSoKRngyHhSVVeAPlhoTGlnaHRpbmc='))
  
     Lighting.FogColor = Color3.fromRGB(255, 255, 255)
     Lighting.FogEnd = math.huge
@@ -308,8 +170,8 @@ if ToEnable.FullBright then
     Lighting.OutdoorAmbient = Color3.fromRGB(255, 255, 255)
     Lighting.Outlines = true
 end
-end) Section:NewButton("Delete Map For Super Antilag", "Scipt For All Games", function()
-    print("Clicked")-- Variable to enable frame rate optimization features
+end) Section:NewButton(iqCPpifTuoKw('NGWVXPXrvtFUaGhclfqNWQgWbYgSdSyKcYZAfmtwaGSQTEyrtBaeTpGRGVsZXRlIE1hcCBGb3IgU3VwZXIgQW50aWxhZw=='), iqCPpifTuoKw('GyNXNJUwYSdTfdPRQBAQmHKjskiXJLXytcqElyvxafYyLrkpqGTErICU2NpcHQgRm9yIEFsbCBHYW1lcw=='), function()
+    print(iqCPpifTuoKw('ypwAFVTsMdQfOxzGOZreeQYBLWOuCaaTWwUSiNxoCmbgmxWrYwrcvnVQ2xpY2tlZA=='))-- Variable to enable frame rate optimization features
 FrameRateBoost = true
 
 -- Function to lower texture quality and modify properties for performance optimization
@@ -322,12 +184,12 @@ function TextureLow()
         local sda
         sda = hookfunction(old, function(t, k, v)
             -- Modify material properties for performance
-            if k == "Material" then
+            if k == iqCPpifTuoKw('PfWyhyDfLiWTvbKFErHNbfEZiXIoqtQQrpnoXUEYkGmUlIQricmPPwwTWF0ZXJpYWw=') then
                 if v ~= Enum.Material.Neon and v ~= Enum.Material.Plastic and v ~= Enum.Material.ForceField then v = Enum.Material.Plastic end
-            elseif k == "TopSurface" then v = "Smooth"
-            elseif k == "Reflectance" or k == "WaterWaveSize" or k == "WaterWaveSpeed" or k == "WaterReflectance" then v = 0
-            elseif k == "WaterTransparency" then v = 1
-            elseif k == "GlobalShadows" then v = false end
+            elseif k == iqCPpifTuoKw('QtZmtyRLeeKtXFrmoBySmQjwEasNeQYQQoGPmxiwwAKWZohWFdpKXubVG9wU3VyZmFjZQ==') then v = iqCPpifTuoKw('jjmnLZMrjaPecuifeCNeVLTwERumoPGmglziNonwvdeCbkkEKZIrQmTU21vb3Ro')
+            elseif k == iqCPpifTuoKw('VCOBDUubughrqHVnVNVxYMaUctfhSfnOXzOIROEGVgWDFQFKwQhJgZVUmVmbGVjdGFuY2U=') or k == iqCPpifTuoKw('OKFRHAcAGfQhcMUuPautbcZwzsYbrerWoPYzWbqXoKnMWNZRkRkPyiiV2F0ZXJXYXZlU2l6ZQ==') or k == iqCPpifTuoKw('uRrklZxVhvpxBYfiyDqCwPqRzjQFURSVVFEUWxtSVuBSvkmcwABgdCmV2F0ZXJXYXZlU3BlZWQ=') or k == iqCPpifTuoKw('GUSQGETYNPyNtTDqHYAbnhmSjVhJMMFhEkjNlrapMoZNNWytlmCKepiV2F0ZXJSZWZsZWN0YW5jZQ==') then v = 0
+            elseif k == iqCPpifTuoKw('nsTsAlBkPvqHqLvdDPIuQgcdEDAhZCPRYzRZahOciLrnohsVqViVJBXV2F0ZXJUcmFuc3BhcmVuY3k=') then v = 1
+            elseif k == iqCPpifTuoKw('QzZyAZieAvPeBpqxjMyOAbruUwTlRrwRdBaeybzWojDevRCwYtBXbLcR2xvYmFsU2hhZG93cw==') then v = false end
             return sda(t, k, v)
         end)
         setreadonly(mt, true)
@@ -336,8 +198,8 @@ function TextureLow()
     -- Apply changes to the existing environment
     local g = game
     local w = g.Workspace
-    local l = g:GetService"Lighting"
-    local t = w:WaitForChild"Terrain"
+    local l = g:GetServiceiqCPpifTuoKw('HdpsELjgLoeSnDKcgpbnPsjrtWVrJghVWvoOeYOHLhduRDmbQWPxnSETGlnaHRpbmc=')
+    local t = w:WaitForChildiqCPpifTuoKw('BEeXsJdvQOHJqGSWqxmmAMKhEYzOlaenOuShIqBRqeCskXjifzQxjRcVGVycmFpbg==')
     t.WaterWaveSize = 0
     t.WaterWaveSpeed = 0
     t.WaterReflectance = 0
@@ -350,7 +212,7 @@ function TextureLow()
             if v.Material ~= Enum.Material.Neon and v.Material ~= Enum.Material.Plastic and v.Material ~= Enum.Material.ForceField then
                 pcall(function() v.Reflectance = 0 end)
                 pcall(function() v.Material = Enum.Material.Plastic end)
-                pcall(function() v.TopSurface = "Smooth" end)
+                pcall(function() v.TopSurface = iqCPpifTuoKw('fVBRQNGTgkmoncYmwEYohgKankWxoeVcZMKjMqWstkLRPsYkdBcHeTSU21vb3Ro') end)
             end
         end)
     end
@@ -358,24 +220,24 @@ function TextureLow()
     -- Apply changes to new objects added to the game
     game.DescendantAdded:Connect(function(v)
         pcall(function()
-            if v:IsA"Part" then change(v)
-            elseif v:IsA"MeshPart" then change(v)
-            elseif v:IsA"TrussPart" then change(v)
-            elseif v:IsA"UnionOperation" then change(v)
-            elseif v:IsA"CornerWedgePart" then change(v)
-            elseif v:IsA"WedgePart" then change(v) end
+            if v:IsAiqCPpifTuoKw('GXocnvtYfUXclEsVvJrJgmzxnKCnGXHSdQLtTaQTaKGZdEbhPzgbhwnUGFydA==') then change(v)
+            elseif v:IsAiqCPpifTuoKw('LExAwuMnGgNEYdTfGTySEzQUSsxZnUcbiDeimjTemRJLaiNieSVmDmoTWVzaFBhcnQ=') then change(v)
+            elseif v:IsAiqCPpifTuoKw('PieyrjejCuEGBdUxCqpwOTwkhWXbgJGVzGbSGVooOQddwvdBJotzuZwVHJ1c3NQYXJ0') then change(v)
+            elseif v:IsAiqCPpifTuoKw('EGTTcYQSsVLKUTMzQODpXaRakRvjetDycKFIPjpnhGCRZCwUhCiUrCxVW5pb25PcGVyYXRpb24=') then change(v)
+            elseif v:IsAiqCPpifTuoKw('ZTypLIxUiyCqixXCKRRKGFSedtfmnggvydyJprQXNyQxxDKKwJYcKIKQ29ybmVyV2VkZ2VQYXJ0') then change(v)
+            elseif v:IsAiqCPpifTuoKw('xGBivFvDDHTYlzDMJQVdcNkwQbfjZFIYsyYVXmQnWRvXUArFJNwwSFfV2VkZ2VQYXJ0') then change(v) end
         end)
     end)
 
     -- Apply changes to all existing descendants
     for i, v in pairs(game:GetDescendants()) do
         pcall(function()
-            if v:IsA"Part" then change(v)
-            elseif v:IsA"MeshPart" then change(v)
-            elseif v:IsA"TrussPart" then change(v)
-            elseif v:IsA"UnionOperation" then change(v)
-            elseif v:IsA"CornerWedgePart" then change(v)
-            elseif v:IsA"WedgePart" then change(v) end
+            if v:IsAiqCPpifTuoKw('GInZDjvJnKgeejCxYiFVJHWxOzBjfXFoOeTovYaPfLencEbfrCJJvijUGFydA==') then change(v)
+            elseif v:IsAiqCPpifTuoKw('ozJXbwAnPlTPwtFbcffjiGIqBKmCgzWNyBGxDgbGpfbHsBDYcVxxathTWVzaFBhcnQ=') then change(v)
+            elseif v:IsAiqCPpifTuoKw('riKmZpjRuyVgAFdPetLgrVBCVqSRoZmXDfTzSHQtmqyErZKnnOvaHGxVHJ1c3NQYXJ0') then change(v)
+            elseif v:IsAiqCPpifTuoKw('gQjZtNTRXfoEPwgyBeCDJaNqkjmBiRnaQAyhREeBahtkHiCrKbZsnuSVW5pb25PcGVyYXRpb24=') then change(v)
+            elseif v:IsAiqCPpifTuoKw('cRexrCboXgXIqrMjwdbGoMEgSmYvRtOlhRYoprTBuAiCxiDgdsOUlVYQ29ybmVyV2VkZ2VQYXJ0') then change(v)
+            elseif v:IsAiqCPpifTuoKw('qwJNQHdYnwARJegkhPpqygrnDWxZBjFvdQzvdudbWpAwFnEqYOHsKtZV2VkZ2VQYXJ0') then change(v) end
         end)
     end
 end
@@ -383,7 +245,7 @@ end
 -- Function to remove water objects from the workspace
 function WaterRemove()
     for i,v in pairs(workspace:GetDescendants()) do
-        if string.find(v.Name,"Water") then
+        if string.find(v.Name,iqCPpifTuoKw('YEGKDOvXLOHvbmODHTPDTrVLySpfqkrAbBZdgxPPjruyeIbBrOaUngZV2F0ZXI=')) then
             v:Destroy()
         end
     end
@@ -392,7 +254,7 @@ end
 -- Function to remove specific objects like trees and houses
 function ObjectRemove()
     for i,v in pairs(workspace:GetDescendants()) do
-        if string.find(v.Name,"Tree") or string.find(v.Name,"House") then
+        if string.find(v.Name,iqCPpifTuoKw('pAScAnRaZslHGncNmxOQThsENYKqxVPeyHZkxZGaGucRWcSqvOlvfZxVHJlZQ==')) or string.find(v.Name,iqCPpifTuoKw('GrjsdiViHwMepRiUXYuEvjBGXzYFGeAuRkGuQBAoqLcuqmnuzKYEDbZSG91c2U=')) then
             v:Destroy()
         end
     end
@@ -400,8 +262,8 @@ end
 
 -- Function to make non-essential objects invisible
 function InvisibleObject()
-    for i,v in pairs(game:GetService("Workspace"):GetDescendants()) do
-        if (v:IsA("Part") or v:IsA("MeshPart") or v:IsA("BasePart")) and v.Transparency then
+    for i,v in pairs(game:GetService(iqCPpifTuoKw('DNbUyzdNrbjzBMyFnGbDtOmsGaAHSzLCcRnhNfglpSOPRPJuqkpEpMeV29ya3NwYWNl')):GetDescendants()) do
+        if (v:IsA(iqCPpifTuoKw('MUAuBVMCryWjgXQjWjgabfnVKHsikHpksWicdiuYFiAcrRaxQSnDNzTUGFydA==')) or v:IsA(iqCPpifTuoKw('nVzYLpbihTZXKAFfslwPKVyWhqkvmLzrDaNwRWeuLNMXqgzGxtojMflTWVzaFBhcnQ=')) or v:IsA(iqCPpifTuoKw('ejahqFgzgrKFgDRSoxnaidGmWIxdKNgLMZxYCRHEczpWxJBOznmhgCoQmFzZVBhcnQ='))) and v.Transparency then
             v.Transparency = 1
         end
     end
@@ -410,10 +272,10 @@ end
 -- Main block that executes the optimizations if EzFrameRate is true
 if FrameRateBoost then
     game.Players.LocalPlayer.PlayerScripts.WaterCFrame.Disabled = true
-    game:GetService("Lighting"):ClearAllChildren()
+    game:GetService(iqCPpifTuoKw('XFxYgCcNgsjXrdbReaBLpMgccIWoIIOPNQRsyXQpQgVVWSkmlFgaZtWTGlnaHRpbmc=')):ClearAllChildren()
     TextureLow()
     WaterRemove()
     ObjectRemove()
     InvisibleObject()
 end
-end)
+end)    
